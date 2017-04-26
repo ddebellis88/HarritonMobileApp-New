@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
+		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
+		CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88D1EAD92C20026061C /* Assets.xcassets */; };
+		CFE1F8911EAD92C20026061C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */; };
+		CFE1F89C1EAD92C20026061C /* HarritonMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F89B1EAD92C20026061C /* HarritonMobileAppTests.swift */; };
+		CFE1F8A71EAD92C20026061C /* HarritonMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8A61EAD92C20026061C /* HarritonMobileAppUITests.swift */; };
+		CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8B51EAD93190026061C /* SWRevealViewController.m */; };
+		CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8B81EAD944F0026061C /* ViewController.swift */; };
+		CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */; };
+		CFE1F8C71EB0213E0026061C /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */; };
+		CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8C81EB021540026061C /* ArtsViewController.swift */; };
+		CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */; };
+		CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */; };
+		CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */; };
+		CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */; };
+		CFE1F8D31EB021C20026061C /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D21EB021C20026061C /* LibraryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE1F8981EAD92C20026061C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE1F87B1EAD92C20026061C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE1F8821EAD92C20026061C;
+			remoteInfo = HarritonMobileApp;
+		};
+		CFE1F8A31EAD92C20026061C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE1F87B1EAD92C20026061C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE1F8821EAD92C20026061C;
+			remoteInfo = HarritonMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFE1F88B1EAD92C20026061C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFE1F88D1EAD92C20026061C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE1F8901EAD92C20026061C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFE1F8921EAD92C20026061C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE1F8971EAD92C20026061C /* HarritonMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarritonMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE1F89B1EAD92C20026061C /* HarritonMobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarritonMobileAppTests.swift; sourceTree = "<group>"; };
+		CFE1F89D1EAD92C20026061C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE1F8A21EAD92C20026061C /* HarritonMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarritonMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE1F8A61EAD92C20026061C /* HarritonMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarritonMobileAppUITests.swift; sourceTree = "<group>"; };
+		CFE1F8A81EAD92C20026061C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HarritonMobileApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CFE1F8B51EAD93190026061C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CFE1F8B61EAD93190026061C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CFE1F8B81EAD944F0026061C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutHarritonViewController.swift; sourceTree = "<group>"; };
+		CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
+		CFE1F8C81EB021540026061C /* ArtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtsViewController.swift; sourceTree = "<group>"; };
+		CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AthleticsViewController.swift; sourceTree = "<group>"; };
+		CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusLifeViewController.swift; sourceTree = "<group>"; };
+		CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCounselingViewController.swift; sourceTree = "<group>"; };
+		CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentInfoViewController.swift; sourceTree = "<group>"; };
+		CFE1F8D21EB021C20026061C /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE1F8801EAD92C20026061C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F8941EAD92C20026061C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F89F1EAD92C20026061C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE1F87A1EAD92C20026061C = {
+			isa = PBXGroup;
+			children = (
+				CFE1F8851EAD92C20026061C /* HarritonMobileApp */,
+				CFE1F89A1EAD92C20026061C /* HarritonMobileAppTests */,
+				CFE1F8A51EAD92C20026061C /* HarritonMobileAppUITests */,
+				CFE1F8841EAD92C20026061C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE1F8841EAD92C20026061C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */,
+				CFE1F8971EAD92C20026061C /* HarritonMobileAppTests.xctest */,
+				CFE1F8A21EAD92C20026061C /* HarritonMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE1F8851EAD92C20026061C /* HarritonMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
+				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
+				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
+				CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */,
+				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
+				CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */,
+				CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */,
+				CFE1F8C81EB021540026061C /* ArtsViewController.swift */,
+				CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */,
+				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
+				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
+				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
+				CFE1F8D21EB021C20026061C /* LibraryViewController.swift */,
+				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
+				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
+				CFE1F8921EAD92C20026061C /* Info.plist */,
+				CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */,
+			);
+			path = HarritonMobileApp;
+			sourceTree = "<group>";
+		};
+		CFE1F89A1EAD92C20026061C /* HarritonMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1F89B1EAD92C20026061C /* HarritonMobileAppTests.swift */,
+				CFE1F89D1EAD92C20026061C /* Info.plist */,
+			);
+			path = HarritonMobileAppTests;
+			sourceTree = "<group>";
+		};
+		CFE1F8A51EAD92C20026061C /* HarritonMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1F8A61EAD92C20026061C /* HarritonMobileAppUITests.swift */,
+				CFE1F8A81EAD92C20026061C /* Info.plist */,
+			);
+			path = HarritonMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE1F8821EAD92C20026061C /* HarritonMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE1F8AB1EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileApp" */;
+			buildPhases = (
+				CFE1F87F1EAD92C20026061C /* Sources */,
+				CFE1F8801EAD92C20026061C /* Frameworks */,
+				CFE1F8811EAD92C20026061C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarritonMobileApp;
+			productName = HarritonMobileApp;
+			productReference = CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE1F8961EAD92C20026061C /* HarritonMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE1F8AE1EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppTests" */;
+			buildPhases = (
+				CFE1F8931EAD92C20026061C /* Sources */,
+				CFE1F8941EAD92C20026061C /* Frameworks */,
+				CFE1F8951EAD92C20026061C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE1F8991EAD92C20026061C /* PBXTargetDependency */,
+			);
+			name = HarritonMobileAppTests;
+			productName = HarritonMobileAppTests;
+			productReference = CFE1F8971EAD92C20026061C /* HarritonMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE1F8A11EAD92C20026061C /* HarritonMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE1F8B11EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppUITests" */;
+			buildPhases = (
+				CFE1F89E1EAD92C20026061C /* Sources */,
+				CFE1F89F1EAD92C20026061C /* Frameworks */,
+				CFE1F8A01EAD92C20026061C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE1F8A41EAD92C20026061C /* PBXTargetDependency */,
+			);
+			name = HarritonMobileAppUITests;
+			productName = HarritonMobileAppUITests;
+			productReference = CFE1F8A21EAD92C20026061C /* HarritonMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE1F87B1EAD92C20026061C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "David DeBellis";
+				TargetAttributes = {
+					CFE1F8821EAD92C20026061C = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					CFE1F8961EAD92C20026061C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFE1F8821EAD92C20026061C;
+					};
+					CFE1F8A11EAD92C20026061C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFE1F8821EAD92C20026061C;
+					};
+				};
+			};
+			buildConfigurationList = CFE1F87E1EAD92C20026061C /* Build configuration list for PBXProject "HarritonMobileApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE1F87A1EAD92C20026061C;
+			productRefGroup = CFE1F8841EAD92C20026061C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE1F8821EAD92C20026061C /* HarritonMobileApp */,
+				CFE1F8961EAD92C20026061C /* HarritonMobileAppTests */,
+				CFE1F8A11EAD92C20026061C /* HarritonMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE1F8811EAD92C20026061C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE1F8911EAD92C20026061C /* LaunchScreen.storyboard in Resources */,
+				CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */,
+				CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F8951EAD92C20026061C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F8A01EAD92C20026061C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE1F87F1EAD92C20026061C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */,
+				CFE1F8D31EB021C20026061C /* LibraryViewController.swift in Sources */,
+				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
+				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
+				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
+				CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */,
+				CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */,
+				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
+				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,
+				CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */,
+				CFE1F8C71EB0213E0026061C /* AcademicsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F8931EAD92C20026061C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE1F89C1EAD92C20026061C /* HarritonMobileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE1F89E1EAD92C20026061C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE1F8A71EAD92C20026061C /* HarritonMobileAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE1F8991EAD92C20026061C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE1F8821EAD92C20026061C /* HarritonMobileApp */;
+			targetProxy = CFE1F8981EAD92C20026061C /* PBXContainerItemProxy */;
+		};
+		CFE1F8A41EAD92C20026061C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE1F8821EAD92C20026061C /* HarritonMobileApp */;
+			targetProxy = CFE1F8A31EAD92C20026061C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFE1F88A1EAD92C20026061C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE1F88B1EAD92C20026061C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE1F8901EAD92C20026061C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE1F8A91EAD92C20026061C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE1F8AA1EAD92C20026061C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE1F8AC1EAD92C20026061C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HarritonMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HarritonMobileApp/HarritonMobileApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFE1F8AD1EAD92C20026061C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HarritonMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HarritonMobileApp/HarritonMobileApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFE1F8AF1EAD92C20026061C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HarritonMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarritonMobileApp.app/HarritonMobileApp";
+			};
+			name = Debug;
+		};
+		CFE1F8B01EAD92C20026061C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HarritonMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarritonMobileApp.app/HarritonMobileApp";
+			};
+			name = Release;
+		};
+		CFE1F8B21EAD92C20026061C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HarritonMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HarritonMobileApp;
+			};
+			name = Debug;
+		};
+		CFE1F8B31EAD92C20026061C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HarritonMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarritonMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HarritonMobileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE1F87E1EAD92C20026061C /* Build configuration list for PBXProject "HarritonMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1F8A91EAD92C20026061C /* Debug */,
+				CFE1F8AA1EAD92C20026061C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE1F8AB1EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1F8AC1EAD92C20026061C /* Debug */,
+				CFE1F8AD1EAD92C20026061C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE1F8AE1EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1F8AF1EAD92C20026061C /* Debug */,
+				CFE1F8B01EAD92C20026061C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE1F8B11EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE1F8B21EAD92C20026061C /* Debug */,
+				CFE1F8B31EAD92C20026061C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE1F87B1EAD92C20026061C /* Project object */;
+}
