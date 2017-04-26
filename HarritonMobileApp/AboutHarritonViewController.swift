@@ -40,6 +40,8 @@ class AboutHarritonViewControllerAllSides: UIViewController {
         
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
+    
+    //test
 
 
 }
