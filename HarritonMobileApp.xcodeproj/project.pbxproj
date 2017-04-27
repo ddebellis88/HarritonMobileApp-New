@@ -22,7 +22,7 @@
 		CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */; };
 		CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */; };
 		CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */; };
-		CFE1F8D31EB021C20026061C /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D21EB021C20026061C /* LibraryViewController.swift */; };
+		CFE1F8D31EB021C20026061C /* StudentPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusLifeViewController.swift; sourceTree = "<group>"; };
 		CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCounselingViewController.swift; sourceTree = "<group>"; };
 		CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentInfoViewController.swift; sourceTree = "<group>"; };
-		CFE1F8D21EB021C20026061C /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPortalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
 				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
 				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
-				CFE1F8D21EB021C20026061C /* LibraryViewController.swift */,
+				CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
 				CFE1F8921EAD92C20026061C /* Info.plist */,
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */,
-				CFE1F8D31EB021C20026061C /* LibraryViewController.swift in Sources */,
+				CFE1F8D31EB021C20026061C /* StudentPortalViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,

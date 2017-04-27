@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LibraryViewController: UIViewController {
+class StudentPortalViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
