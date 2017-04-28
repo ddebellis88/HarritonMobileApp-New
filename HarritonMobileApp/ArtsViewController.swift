@@ -10,6 +10,8 @@ import UIKit
 
 class ArtsViewController: UIViewController {
 
+    @IBOutlet weak var Label: UITextView!
+    @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +44,26 @@ class ArtsViewController: UIViewController {
     }
     
     
+    @IBAction func ChangeLabel(_ sender: Any) {
+        
+        if segmentControl.selectedSegmentIndex == 0
+        {
+
+            Label.text = "Test 1"
+        }
+        
+        if segmentControl.selectedSegmentIndex == 1
+        {
+            Label.text = "Test 2"
+        }
+        
+        if segmentControl.selectedSegmentIndex == 2
+        {
+            Label.text = "Test 3"
+        }
+        
+        
+    }
     
     
 }
