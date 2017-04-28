@@ -803,7 +803,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <items>
                                                         <navigationItem title="Settings" id="rhv-sL-c7h">
-                                                            <barButtonItem key="leftBarButtonItem" systemItem="reply" id="HI3-P8-Hvi">
+                                                            <barButtonItem key="leftBarButtonItem" image="Back-25" id="HI3-P8-Hvi">
                                                                 <connections>
                                                                     <segue destination="9TT-yJ-Onw" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dFl-bZ-mg8"/>
                                                                 </connections>
@@ -965,12 +965,13 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
         </scene>
     </scenes>
     <resources>
+        <image name="Back-25" width="25" height="25"/>
         <image name="HHS Logo" width="200" height="200"/>
         <image name="Settings-50" width="25" height="25"/>
         <image name="menu" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3S6-Re-eDI"/>
+        <segue reference="dFl-bZ-mg8"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
