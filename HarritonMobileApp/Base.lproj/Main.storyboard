@@ -243,7 +243,7 @@
         <scene sceneID="75w-vQ-vxW">
             <objects>
                 <navigationController id="WY1-Kc-sC4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gmt-cp-UO7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gmt-cp-UO7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -298,7 +298,7 @@
         <scene sceneID="tvZ-4E-cys">
             <objects>
                 <navigationController id="YKM-Qq-jCc" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cN0-ad-QvT">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cN0-ad-QvT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -354,7 +354,7 @@
         <scene sceneID="BUb-kk-uE7">
             <objects>
                 <navigationController id="xw3-ll-mVF" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="GlJ-9c-Xap">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GlJ-9c-Xap">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -412,7 +412,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
         <scene sceneID="eTi-o3-yEH">
             <objects>
                 <navigationController id="uZ9-iu-zGf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FjO-dI-9W2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FjO-dI-9W2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -467,7 +467,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
         <scene sceneID="2JA-At-7a2">
             <objects>
                 <navigationController id="dbb-OZ-vs1" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ecO-1d-o24">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecO-1d-o24">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -524,7 +524,7 @@ Participation in the athletic program is considered a privilege extended by the 
         <scene sceneID="1aO-v3-EQi">
             <objects>
                 <navigationController id="U9y-q0-EUM" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ld5-p2-6w4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ld5-p2-6w4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -571,14 +571,12 @@ Participation in the athletic program is considered a privilege extended by the 
                                             <action selector="ChangeLabel:" destination="cQx-cV-uU7" eventType="valueChanged" id="c2O-F4-oK9"/>
                                         </connections>
                                     </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mt1-5w-Rph">
-                                        <rect key="frame" x="11" y="67" width="359" height="447"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PVT-3k-lnv">
+                                        <rect key="frame" x="0.0" y="58" width="375" height="481"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <rect key="contentStretch" x="0.0" y="0.14999999999999999" width="1" height="1"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -588,7 +586,7 @@ Participation in the athletic program is considered a privilege extended by the 
                         <barButtonItem key="leftBarButtonItem" image="menu" id="IHX-bd-IwS"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="Label" destination="Mt1-5w-Rph" id="IL3-gj-gbX"/>
+                        <outlet property="Label" destination="PVT-3k-lnv" id="JGv-Y7-V3a"/>
                         <outlet property="menuButton" destination="IHX-bd-IwS" id="Ybc-60-yvK"/>
                         <outlet property="segmentControl" destination="Hlb-Qi-YeZ" id="Scy-7m-4ff"/>
                     </connections>
@@ -601,7 +599,7 @@ Participation in the athletic program is considered a privilege extended by the 
         <scene sceneID="c7J-QS-OSo">
             <objects>
                 <navigationController id="Fev-Hf-7Q1" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="d50-mi-J6W">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d50-mi-J6W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -660,7 +658,7 @@ Harriton provides comprehensive programs and services for students with special 
         <scene sceneID="thV-RT-tNR">
             <objects>
                 <navigationController id="Fvm-m7-Jki" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="B6x-VG-snl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B6x-VG-snl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -947,7 +945,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9TT-yJ-Onw" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="KEm-a9-62e">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KEm-a9-62e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

@@ -10,6 +10,7 @@ import UIKit
 
 class ArtsViewController: UIViewController {
 
+    @IBOutlet weak var Label: UITextView!
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
@@ -47,10 +48,8 @@ class ArtsViewController: UIViewController {
         
         if segmentControl.selectedSegmentIndex == 0
         {
-           // let a = "The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art."
-           // let b = "A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them."
 
-            Label.text = "\("The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.") \("A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them.")"
+            Label.text = "Test 1"
         }
         
         
@@ -66,7 +65,7 @@ class ArtsViewController: UIViewController {
         
         
         
-        if segmentControl.selectedSegmentIndex == 3
+        if segmentControl.selectedSegmentIndex == 2
         {
             Label.text = "Test 3"
         }
