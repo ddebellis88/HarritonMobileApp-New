@@ -271,7 +271,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jza-ea-jHc">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jza-ea-jHc">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</string>
@@ -382,7 +382,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8MM-aP-21H">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8MM-aP-21H">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Welcome to the Harriton High School Counseling Department! We help with course selection and scheduling, academic support, personal concerns, or college and post-graduation planning.
@@ -440,7 +440,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1V-vi-djU">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h1V-vi-djU">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Harriton students benefit from a rich academic and social life. Students can choose from an array of co-curricular activities including athletics, arts, performance, subject-area clubs, social responsibility and service organizations, and more. More than 100 teams and clubs provide students with outlets to express existing interests and develop new ones. Developing interests - both new and well established - is a key goal of a Harriton education.</string>
@@ -495,7 +495,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-b8-nB7">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-b8-nB7">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Consistent with the District's overall philosophy and purpose, the primary goal of the high school athletic program is to provide a competitive arena where student-athletes can display their talents, enhance their physical wellness and skills, and gain a greater technical and tactical understanding and appreciation of their chosen sport while working as a team towards common goals. Within the athletic program, it is expected that all participants display a competitive spirit, outstanding sportsmanship, and exemplary character throughout the year, on and off the field of play. The athletic program should be a positive component of the student-athlete's educational experience.
@@ -552,7 +552,7 @@ Participation in the athletic program is considered a privilege extended by the 
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-xi-tkZ">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-xi-tkZ">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="84"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Harriton has long been known for its outstanding fine arts, music and theater programs. A full range of curricular and co-curricular opportunities are available to students.</string>
@@ -571,7 +571,7 @@ Participation in the athletic program is considered a privilege extended by the 
                                             <action selector="ChangeLabel:" destination="cQx-cV-uU7" eventType="valueChanged" id="c2O-F4-oK9"/>
                                         </connections>
                                     </segmentedControl>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVT-3k-lnv">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PVT-3k-lnv">
                                         <rect key="frame" x="0.0" y="58" width="375" height="481"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <mutableString key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
@@ -632,7 +632,7 @@ Available courses encompass studio art, art history, art and modern culture, met
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJJ-fA-EJR">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BJJ-fA-EJR">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Harriton offers a rigorous, personalized program of studies designed to prepare all students to achieve post-high school goals. At the heart of the program is a classic liberal arts curriculum that provides a broad foundation for learning, balanced with opportunities for independent study and in-depth exploration. Students may choose from nearly 200 distinct and varied courses, from the introductory to college level. Harriton's International Baccalaureate Diploma program provides additional options for highly motivated students.
@@ -691,7 +691,7 @@ Harriton provides comprehensive programs and services for students with special 
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-pP-bRk">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-pP-bRk">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">At Harriton, it’s cool to be smart.
@@ -749,17 +749,17 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HHS Logo" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-e3-lhe">
+                                <rect key="frame" x="0.0" y="64" width="111" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome To Harriton Mobile App" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7m-kJ-dc8">
-                                <rect key="frame" x="110" y="20" width="265" height="105"/>
+                                <rect key="frame" x="110" y="64" width="265" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HHS Logo" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-e3-lhe">
-                                <rect key="frame" x="0.0" y="64" width="111" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -778,7 +778,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2B-DN-gpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79" y="743"/>
+            <point key="canvasLocation" x="-79.200000000000003" y="742.5787106446777"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="0sA-8X-HAr">
