@@ -10,7 +10,6 @@ import UIKit
 
 class ArtsViewController: UIViewController {
 
-    @IBOutlet weak var Label: UILabel!
     @IBOutlet weak var segmentControl: UISegmentedControl!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {

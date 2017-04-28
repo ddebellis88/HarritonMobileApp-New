@@ -243,7 +243,7 @@
         <scene sceneID="75w-vQ-vxW">
             <objects>
                 <navigationController id="WY1-Kc-sC4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gmt-cp-UO7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gmt-cp-UO7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -412,7 +412,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
         <scene sceneID="eTi-o3-yEH">
             <objects>
                 <navigationController id="uZ9-iu-zGf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FjO-dI-9W2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FjO-dI-9W2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -947,7 +947,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9TT-yJ-Onw" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KEm-a9-62e">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="KEm-a9-62e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
