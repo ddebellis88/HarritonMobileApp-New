@@ -274,7 +274,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jza-ea-jHc">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</mutableString>
+                                        <string key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -385,10 +385,10 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8MM-aP-21H">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Welcome to the Harriton High School Counseling Department! We help with course selection and scheduling, academic support, personal concerns, or college and post-graduation planning.
+                                        <string key="text">Welcome to the Harriton High School Counseling Department! We help with course selection and scheduling, academic support, personal concerns, or college and post-graduation planning.
 
 To discuss a question or concern, or to schedule an appointment, students and families may contact their counselor directly by telephone or email (go to Find My Counselor if needed) or simply call the office at the number above.
-Please note that we will respond as quickly as possible, but may need a day or two to get back to you. If you are in crisis or have an emergency need, please come to our office, or call the school main office, 610-658-3960 and let the staff know you need immediate assistance.</mutableString>
+Please note that we will respond as quickly as possible, but may need a day or two to get back to you. If you are in crisis or have an emergency need, please come to our office, or call the school main office, 610-658-3960 and let the staff know you need immediate assistance.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -498,9 +498,9 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-b8-nB7">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Consistent with the District's overall philosophy and purpose, the primary goal of the high school athletic program is to provide a competitive arena where student-athletes can display their talents, enhance their physical wellness and skills, and gain a greater technical and tactical understanding and appreciation of their chosen sport while working as a team towards common goals. Within the athletic program, it is expected that all participants display a competitive spirit, outstanding sportsmanship, and exemplary character throughout the year, on and off the field of play. The athletic program should be a positive component of the student-athlete's educational experience.
+                                        <string key="text">Consistent with the District's overall philosophy and purpose, the primary goal of the high school athletic program is to provide a competitive arena where student-athletes can display their talents, enhance their physical wellness and skills, and gain a greater technical and tactical understanding and appreciation of their chosen sport while working as a team towards common goals. Within the athletic program, it is expected that all participants display a competitive spirit, outstanding sportsmanship, and exemplary character throughout the year, on and off the field of play. The athletic program should be a positive component of the student-athlete's educational experience.
 
-Participation in the athletic program is considered a privilege extended by the high school, through the Board of School Directors, to students who choose to participate. Participation in this program requires a commitment by the student-athlete of his/her time, energy and loyalty, as well as an acceptance of coaches' decisions, training techniques, and expectations. Student-athletes should willingly assume all responsibilities and obligations that are inherent and unique to the program. Student-athletes must understand and appreciate that they not only represent themselves during competition, but also their teammates, their school, the Lower Merion community, and a proud tradition of athletics at Harriton High School.</mutableString>
+Participation in the athletic program is considered a privilege extended by the high school, through the Board of School Directors, to students who choose to participate. Participation in this program requires a commitment by the student-athlete of his/her time, energy and loyalty, as well as an acceptance of coaches' decisions, training techniques, and expectations. Student-athletes should willingly assume all responsibilities and obligations that are inherent and unique to the program. Student-athletes must understand and appreciate that they not only represent themselves during competition, but also their teammates, their school, the Lower Merion community, and a proud tradition of athletics at Harriton High School.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -568,11 +568,11 @@ Participation in the athletic program is considered a privilege extended by the 
                                             <segment title="Theater"/>
                                         </segments>
                                         <connections>
-                                            <segue destination="0aR-3f-wOH" kind="push" id="1Zf-Xj-3O8"/>
+                                            <action selector="ChangeLabel:" destination="cQx-cV-uU7" eventType="valueChanged" id="c2O-F4-oK9"/>
                                         </connections>
                                     </segmentedControl>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="test" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vif-Iu-ioX">
-                                        <rect key="frame" x="0.0" y="64" width="375" height="475"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PVT-3k-lnv">
+                                        <rect key="frame" x="0.0" y="58" width="375" height="481"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -586,7 +586,9 @@ Participation in the athletic program is considered a privilege extended by the 
                         <barButtonItem key="leftBarButtonItem" image="menu" id="IHX-bd-IwS"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="Label" destination="PVT-3k-lnv" id="JGv-Y7-V3a"/>
                         <outlet property="menuButton" destination="IHX-bd-IwS" id="Ybc-60-yvK"/>
+                        <outlet property="segmentControl" destination="Hlb-Qi-YeZ" id="Scy-7m-4ff"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SWg-yH-dvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -628,11 +630,11 @@ Participation in the athletic program is considered a privilege extended by the 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJJ-fA-EJR">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Harriton offers a rigorous, personalized program of studies designed to prepare all students to achieve post-high school goals. At the heart of the program is a classic liberal arts curriculum that provides a broad foundation for learning, balanced with opportunities for independent study and in-depth exploration. Students may choose from nearly 200 distinct and varied courses, from the introductory to college level. Harriton's International Baccalaureate Diploma program provides additional options for highly motivated students.
+                                        <string key="text">Harriton offers a rigorous, personalized program of studies designed to prepare all students to achieve post-high school goals. At the heart of the program is a classic liberal arts curriculum that provides a broad foundation for learning, balanced with opportunities for independent study and in-depth exploration. Students may choose from nearly 200 distinct and varied courses, from the introductory to college level. Harriton's International Baccalaureate Diploma program provides additional options for highly motivated students.
 
 At the conclusion of their high school careers, all students engage in a "Senior Project." This self-directed, experiential capstone course enables students to explore a topic of interest and serves to illustrate the skills and knowledge gained during their years in Lower Merion School District.
 
-Harriton provides comprehensive programs and services for students with special needs in an inclusive environment.</mutableString>
+Harriton provides comprehensive programs and services for students with special needs in an inclusive environment.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -687,7 +689,7 @@ Harriton provides comprehensive programs and services for students with special 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-pP-bRk">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">At Harriton, it’s cool to be smart.
+                                        <string key="text">At Harriton, it’s cool to be smart.
 
 How many other high schools hold pep rallies for the Science Olympiad team? Then, again – how many schools have a Science Olympiad team that’s won 18 of the last 19 state championships? And it’s not just Science Olympiad. Physics Olympics, Academic Decathlon and the Technology Student Association (TSA) are some of the most popular - and celebrated - activities on campus.
 
@@ -709,7 +711,7 @@ Spirit Weeks, Pep Rallies, Quidditch Tournaments - there's always something fun 
 
 At Harriton, seize the day!
 
-Since opening in 1958, Harriton has been known for its vibrant, participatory spirit. Students aren’t just athletes or actors. They are athlete-actors. They don’t just build robots or sing in the vocal jazz ensemble. They are robot-building jazz singers. They take chemistry, ceramics, theology, creative performance, geometry, concert band and Latin. It’s no wonder they know the translation for the school motto...Carpe Diem!</mutableString>
+Since opening in 1958, Harriton has been known for its vibrant, participatory spirit. Students aren’t just athletes or actors. They are athlete-actors. They don’t just build robots or sing in the vocal jazz ensemble. They are robot-building jazz singers. They take chemistry, ceramics, theology, creative performance, geometry, concert band and Latin. It’s no wonder they know the translation for the school motto...Carpe Diem!</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -956,40 +958,6 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
             </objects>
             <point key="canvasLocation" x="-1204" y="743"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="sKc-Nz-0k7">
-            <objects>
-                <viewController id="0aR-3f-wOH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W7c-da-lwX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0C-Ci-A1N">
-                                <rect key="frame" x="0.0" y="36" width="375" height="475"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
-
-A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them.
-
-Available courses encompass studio art, art history, art and modern culture, metal arts, ceramics, photography, film and visual arts. Levels range from introductory to AP.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TEST SECOND SCREEN" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-3g-mFh">
-                                <rect key="frame" x="67" y="383" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Mqb-6j-lmv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lGX-va-cfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5910" y="-2197"/>
-        </scene>
     </scenes>
     <resources>
         <image name="HHS Logo" width="200" height="200"/>
@@ -999,4 +967,5 @@ Available courses encompass studio art, art history, art and modern culture, met
     <inferredMetricsTieBreakers>
         <segue reference="3S6-Re-eDI"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
