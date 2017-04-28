@@ -52,18 +52,10 @@ class ArtsViewController: UIViewController {
             Label.text = "Test 1"
         }
         
-        
-        
-        
         if segmentControl.selectedSegmentIndex == 1
         {
             Label.text = "Test 2"
         }
-        
-        
-        
-        
-        
         
         if segmentControl.selectedSegmentIndex == 2
         {
