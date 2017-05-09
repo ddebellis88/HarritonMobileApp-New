@@ -274,7 +274,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jza-ea-jHc">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</mutableString>
+                                        <string key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -308,12 +308,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vu-gK-v23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4274" y="1274"/>
+            <point key="canvasLocation" x="5097" y="2394"/>
         </scene>
         <!--Student Portal-->
         <scene sceneID="Jyn-8S-Edc">
             <objects>
-                <viewController title="Student Portal" id="wuA-fV-UZr" customClass="LibraryViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Student Portal" id="wuA-fV-UZr" customClass="StudentPortalViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yXe-lu-eAL"/>
                         <viewControllerLayoutGuide type="bottom" id="jcr-1B-EuX"/>
@@ -323,19 +323,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ney-Ze-VKr">
-                                <rect key="frame" x="0.0" y="64" width="375" height="595"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-ap-UyW">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="595"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-ap-UyW">
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="167"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <string key="text">SHOULD MAKE THIS INTO A STUDENT ZONE. THIS WILL BE KEY FOR STUDENTS TO HAVE AND WILL BE VERY USEFUL. WHAT THE STUDENTS WANT AND NEED.</string>
+                                        <string key="text">SHOULD MAKE THIS INTO A STUDENT ZONE. THIS WILL BE KEY FOR STUDENTS TO HAVE AND WILL BE VERY USEFUL. WHAT THE STUDENTS WANT AND NEED. SHOULD MAKE THIS INTO A STUDENT ZONE. THIS WILL BE KEY FOR STUDENTS TO HAVE AND WILL BE VERY USEFUL. WHAT THE STUDENTS WANT AND NEED.  (Club Info, Homework book, Harriton Banner, Special Schedules, PowerSchool, BlackBoard, Mail, Calendar, Lunch and Learn, Map?, Lunch Special)</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8X-Y2-hbD">
+                                <rect key="frame" x="-50" y="233" width="300" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="powerschool"/>
+                                <connections>
+                                    <segue destination="AN1-iw-4Qg" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aa7-6u-W4R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdB-4v-26f">
+                                <rect key="frame" x="209" y="233" width="300" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="harritonheader2"/>
+                                <connections>
+                                    <segue destination="URW-pt-bRp" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="3Kw-PN-rP2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -343,12 +358,98 @@
                         <barButtonItem key="leftBarButtonItem" image="menu" id="PpD-i3-Akx"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="PSButton" destination="a8X-Y2-hbD" id="cjt-L1-TvM"/>
+                        <outlet property="THBButton" destination="fdB-4v-26f" id="RH4-sh-nSm"/>
                         <outlet property="menuButton" destination="PpD-i3-Akx" id="i99-qv-Av8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQn-ut-a5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5096.8000000000002" y="1272.4137931034484"/>
+            <point key="canvasLocation" x="5921" y="2393"/>
+        </scene>
+        <!--Power School View Controller-->
+        <scene sceneID="PkQ-lQ-r0J">
+            <objects>
+                <viewController id="AN1-iw-4Qg" customClass="PowerSchoolViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yql-09-VW1"/>
+                        <viewControllerLayoutGuide type="bottom" id="NJx-tO-OaO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ept-Gj-7N6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2qN-cP-gUi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="PowerSchool" id="HbS-yU-GlN">
+                                        <barButtonItem key="leftBarButtonItem" image="Back" id="Af8-FQ-sa4">
+                                            <connections>
+                                                <segue destination="YKM-Qq-jCc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="EDY-nz-3tt"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ppr-Sb-LL7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="Af8-FQ-sa4" id="fu2-yw-Lwd"/>
+                        <outlet property="webView" destination="Ppr-Sb-LL7" id="twH-zx-5bf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vCb-uU-0vX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5921" y="3215"/>
+        </scene>
+        <!--HarritonBanner-->
+        <scene sceneID="W2V-Ei-tY7">
+            <objects>
+                <viewController title="PowerSchool" id="URW-pt-bRp" userLabel="HarritonBanner" customClass="TheHarritonBannerViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mMJ-mh-tjg"/>
+                        <viewControllerLayoutGuide type="bottom" id="wrd-a5-ZBa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3dE-hf-3lF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Cb-Cx-tqN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="The Harriton Banner" id="bG2-GN-auI">
+                                        <barButtonItem key="leftBarButtonItem" image="Back" id="v9p-JM-v3s">
+                                            <connections>
+                                                <segue destination="YKM-Qq-jCc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="mcB-Ev-KCf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pQp-hS-JWp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="v9p-JM-v3s" id="i9A-ER-Ysz"/>
+                        <outlet property="webView" destination="pQp-hS-JWp" id="6F6-OK-5xf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kd-o7-78V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6734" y="2393"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BUb-kk-uE7">
@@ -385,10 +486,10 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8MM-aP-21H">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Welcome to the Harriton High School Counseling Department! We help with course selection and scheduling, academic support, personal concerns, or college and post-graduation planning.
+                                        <string key="text">Welcome to the Harriton High School Counseling Department! We help with course selection and scheduling, academic support, personal concerns, or college and post-graduation planning.
 
 To discuss a question or concern, or to schedule an appointment, students and families may contact their counselor directly by telephone or email (go to Find My Counselor if needed) or simply call the office at the number above.
-Please note that we will respond as quickly as possible, but may need a day or two to get back to you. If you are in crisis or have an emergency need, please come to our office, or call the school main office, 610-658-3960 and let the staff know you need immediate assistance.</mutableString>
+Please note that we will respond as quickly as possible, but may need a day or two to get back to you. If you are in crisis or have an emergency need, please come to our office, or call the school main office, 610-658-3960 and let the staff know you need immediate assistance.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -498,9 +599,9 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgG-b8-nB7">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Consistent with the District's overall philosophy and purpose, the primary goal of the high school athletic program is to provide a competitive arena where student-athletes can display their talents, enhance their physical wellness and skills, and gain a greater technical and tactical understanding and appreciation of their chosen sport while working as a team towards common goals. Within the athletic program, it is expected that all participants display a competitive spirit, outstanding sportsmanship, and exemplary character throughout the year, on and off the field of play. The athletic program should be a positive component of the student-athlete's educational experience.
+                                        <string key="text">Consistent with the District's overall philosophy and purpose, the primary goal of the high school athletic program is to provide a competitive arena where student-athletes can display their talents, enhance their physical wellness and skills, and gain a greater technical and tactical understanding and appreciation of their chosen sport while working as a team towards common goals. Within the athletic program, it is expected that all participants display a competitive spirit, outstanding sportsmanship, and exemplary character throughout the year, on and off the field of play. The athletic program should be a positive component of the student-athlete's educational experience.
 
-Participation in the athletic program is considered a privilege extended by the high school, through the Board of School Directors, to students who choose to participate. Participation in this program requires a commitment by the student-athlete of his/her time, energy and loyalty, as well as an acceptance of coaches' decisions, training techniques, and expectations. Student-athletes should willingly assume all responsibilities and obligations that are inherent and unique to the program. Student-athletes must understand and appreciate that they not only represent themselves during competition, but also their teammates, their school, the Lower Merion community, and a proud tradition of athletics at Harriton High School.</mutableString>
+Participation in the athletic program is considered a privilege extended by the high school, through the Board of School Directors, to students who choose to participate. Participation in this program requires a commitment by the student-athlete of his/her time, energy and loyalty, as well as an acceptance of coaches' decisions, training techniques, and expectations. Student-athletes should willingly assume all responsibilities and obligations that are inherent and unique to the program. Student-athletes must understand and appreciate that they not only represent themselves during competition, but also their teammates, their school, the Lower Merion community, and a proud tradition of athletics at Harriton High School.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -628,11 +729,11 @@ Participation in the athletic program is considered a privilege extended by the 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJJ-fA-EJR">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">Harriton offers a rigorous, personalized program of studies designed to prepare all students to achieve post-high school goals. At the heart of the program is a classic liberal arts curriculum that provides a broad foundation for learning, balanced with opportunities for independent study and in-depth exploration. Students may choose from nearly 200 distinct and varied courses, from the introductory to college level. Harriton's International Baccalaureate Diploma program provides additional options for highly motivated students.
+                                        <string key="text">Harriton offers a rigorous, personalized program of studies designed to prepare all students to achieve post-high school goals. At the heart of the program is a classic liberal arts curriculum that provides a broad foundation for learning, balanced with opportunities for independent study and in-depth exploration. Students may choose from nearly 200 distinct and varied courses, from the introductory to college level. Harriton's International Baccalaureate Diploma program provides additional options for highly motivated students.
 
 At the conclusion of their high school careers, all students engage in a "Senior Project." This self-directed, experiential capstone course enables students to explore a topic of interest and serves to illustrate the skills and knowledge gained during their years in Lower Merion School District.
 
-Harriton provides comprehensive programs and services for students with special needs in an inclusive environment.</mutableString>
+Harriton provides comprehensive programs and services for students with special needs in an inclusive environment.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -687,7 +788,7 @@ Harriton provides comprehensive programs and services for students with special 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNf-pP-bRk">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <mutableString key="text">At Harriton, it’s cool to be smart.
+                                        <string key="text">At Harriton, it’s cool to be smart.
 
 How many other high schools hold pep rallies for the Science Olympiad team? Then, again – how many schools have a Science Olympiad team that’s won 18 of the last 19 state championships? And it’s not just Science Olympiad. Physics Olympics, Academic Decathlon and the Technology Student Association (TSA) are some of the most popular - and celebrated - activities on campus.
 
@@ -709,7 +810,7 @@ Spirit Weeks, Pep Rallies, Quidditch Tournaments - there's always something fun 
 
 At Harriton, seize the day!
 
-Since opening in 1958, Harriton has been known for its vibrant, participatory spirit. Students aren’t just athletes or actors. They are athlete-actors. They don’t just build robots or sing in the vocal jazz ensemble. They are robot-building jazz singers. They take chemistry, ceramics, theology, creative performance, geometry, concert band and Latin. It’s no wonder they know the translation for the school motto...Carpe Diem!</mutableString>
+Since opening in 1958, Harriton has been known for its vibrant, participatory spirit. Students aren’t just athletes or actors. They are athlete-actors. They don’t just build robots or sing in the vocal jazz ensemble. They are robot-building jazz singers. They take chemistry, ceramics, theology, creative performance, geometry, concert band and Latin. It’s no wonder they know the translation for the school motto...Carpe Diem!</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -914,7 +1015,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSS-mb-YGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953" y="780"/>
+            <point key="canvasLocation" x="881" y="743"/>
         </scene>
         <!--Initial View Controller-->
         <scene sceneID="82l-vc-xGh">
@@ -960,6 +1061,10 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
         <scene sceneID="sKc-Nz-0k7">
             <objects>
                 <viewController id="0aR-3f-wOH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nvv-tF-EgA"/>
+                        <viewControllerLayoutGuide type="bottom" id="iVn-G6-BuJ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="W7c-da-lwX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -967,11 +1072,11 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0C-Ci-A1N">
                                 <rect key="frame" x="0.0" y="36" width="375" height="475"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
+                                <string key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
 
 A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them.
 
-Available courses encompass studio art, art history, art and modern culture, metal arts, ceramics, photography, film and visual arts. Levels range from introductory to AP.</mutableString>
+Available courses encompass studio art, art history, art and modern culture, metal arts, ceramics, photography, film and visual arts. Levels range from introductory to AP.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -990,13 +1095,55 @@ Available courses encompass studio art, art history, art and modern culture, met
             </objects>
             <point key="canvasLocation" x="5910" y="-2197"/>
         </scene>
+        <!--Power School View Controller-->
+        <scene sceneID="EFB-Nh-9u5">
+            <objects>
+                <viewController id="zXF-W1-mg1" customClass="PowerSchoolViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dbH-3z-Shj"/>
+                        <viewControllerLayoutGuide type="bottom" id="cn7-6d-Dmn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hCV-WY-RfH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNL-LY-DSA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="PowerSchool" id="cjA-AO-cD3">
+                                        <barButtonItem key="leftBarButtonItem" image="Back" id="H4A-g4-fWS"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n5f-28-yMP">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="H4A-g4-fWS" id="cM8-98-UaG"/>
+                        <outlet property="webView" destination="n5f-28-yMP" id="7q5-cP-0sU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaP-9p-SBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5921" y="3215"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Back" width="50" height="50"/>
         <image name="HHS Logo" width="200" height="200"/>
         <image name="Settings-50" width="25" height="25"/>
+        <image name="harritonheader2" width="980" height="196"/>
         <image name="menu" width="22" height="22"/>
+        <image name="powerschool" width="186" height="123"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3S6-Re-eDI"/>
+        <segue reference="mcB-Ev-KCf"/>
+        <segue reference="dFl-bZ-mg8"/>
     </inferredMetricsTieBreakers>
 </document>

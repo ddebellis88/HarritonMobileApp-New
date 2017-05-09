@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
+		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
 		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
 		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
 		CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88D1EAD92C20026061C /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
+		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
 		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE1F88B1EAD92C20026061C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
 				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
 				CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */,
+				CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */,
+				CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
 				CFE1F8921EAD92C20026061C /* Info.plist */,
@@ -292,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */,
+				CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */,
 				CFE1F8D31EB021C20026061C /* StudentPortalViewController.swift in Sources */,
+				CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
@@ -549,6 +557,7 @@
 				CFE1F8AD1EAD92C20026061C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE1F8AE1EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +566,7 @@
 				CFE1F8B01EAD92C20026061C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFE1F8B11EAD92C20026061C /* Build configuration list for PBXNativeTarget "HarritonMobileAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +575,7 @@
 				CFE1F8B31EAD92C20026061C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
