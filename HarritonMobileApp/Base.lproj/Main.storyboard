@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -163,8 +164,29 @@
                                             <segue destination="uZ9-iu-zGf" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1hc-kN-Ps6"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0on-9s-rxp" userLabel="School Counseling">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5gK-Ma-jsM" userLabel="News Center">
                                         <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5gK-Ma-jsM" id="kLr-AT-KLa" userLabel="News Center">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7q-A9-nFX">
+                                                    <rect key="frame" x="30" y="11" width="99" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="4Wm-71-TuG" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="anp-hr-2mp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0on-9s-rxp" userLabel="School Counseling">
+                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0on-9s-rxp" id="SIF-Do-Qza" userLabel="School Counseling">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -185,7 +207,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RRz-aW-M3C" userLabel="Parent Info">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RRz-aW-M3C" id="Vho-4h-af4" userLabel="Parent Info">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -206,7 +228,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SBq-Zo-hhM" userLabel="Student Portal">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SBq-Zo-hhM" id="Qqz-pU-f5s" userLabel="Student Portal">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -238,6 +260,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deY-9F-dkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1342" y="-1177"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9l0-cu-duu">
+            <objects>
+                <navigationController id="4Wm-71-TuG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1a1-3O-u6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4ui-v7-N5b" kind="relationship" relationship="rootViewController" id="W4W-We-Xyl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bwx-D8-QxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="-2084"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="75w-vQ-vxW">
@@ -274,7 +312,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jza-ea-jHc">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="603"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community.</string>
+                                        <string key="text">Harriton High School is well known for its high levels of parent engagement and there are numerous opportunities for parents to get involved with school activities. Parents are represented by the Home &amp; School Association (HSA), a committee of parent volunteers who perform a variety of important functions including compiling the annual student directory, organizing special events, and fundraising opportunities for annual gifts which further the educational mission and vision of the school. Parents are encouraged to communicate directly with students and teachers to help foster dialogue an environment of openness which helps to advance the progress of our school community. College board?</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -407,7 +445,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vCb-uU-0vX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5921" y="3215"/>
+            <point key="canvasLocation" x="6898" y="2392"/>
         </scene>
         <!--HarritonBanner-->
         <scene sceneID="W2V-Ei-tY7">
@@ -449,7 +487,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7kd-o7-78V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6734" y="2393"/>
+            <point key="canvasLocation" x="7798" y="2393"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BUb-kk-uE7">
@@ -630,69 +668,12 @@ Participation in the athletic program is considered a privilege extended by the 
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="cQx-cV-uU7" kind="relationship" relationship="rootViewController" id="wk9-ZU-N7s"/>
+                        <segue destination="IKj-cc-68y" kind="relationship" relationship="rootViewController" id="buD-b5-6SK"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="un3-Vg-FMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4274" y="-2197"/>
-        </scene>
-        <!--Arts-->
-        <scene sceneID="DS6-VE-W7C">
-            <objects>
-                <viewController title="Arts" id="cQx-cV-uU7" customClass="ArtsViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JoG-vy-Tvg"/>
-                        <viewControllerLayoutGuide type="bottom" id="TlZ-s8-fRA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YHN-Xj-3Ob">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yzA-Ez-DN4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-xi-tkZ">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="84"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Harriton has long been known for its outstanding fine arts, music and theater programs. A full range of curricular and co-curricular opportunities are available to students.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Hlb-Qi-YeZ">
-                                        <rect key="frame" x="16" y="28" width="343" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <segments>
-                                            <segment title="Fine Arts"/>
-                                            <segment title="Music"/>
-                                            <segment title="Theater"/>
-                                        </segments>
-                                        <connections>
-                                            <segue destination="0aR-3f-wOH" kind="push" id="1Zf-Xj-3O8"/>
-                                        </connections>
-                                    </segmentedControl>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="test" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vif-Iu-ioX">
-                                        <rect key="frame" x="0.0" y="64" width="375" height="475"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="HHS | Arts" id="VJL-B5-MF3">
-                        <barButtonItem key="leftBarButtonItem" image="menu" id="IHX-bd-IwS"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="menuButton" destination="IHX-bd-IwS" id="Ybc-60-yvK"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SWg-yH-dvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5096.8000000000002" y="-2198.0509745127438"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c7J-QS-OSo">
@@ -893,7 +874,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7AI-Fg-B6c">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                    <rect key="frame" x="-1" y="0.0" width="372" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <items>
                                                         <navigationItem title="Settings" id="rhv-sL-c7h">
@@ -1057,44 +1038,6 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
             </objects>
             <point key="canvasLocation" x="-1204" y="743"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="sKc-Nz-0k7">
-            <objects>
-                <viewController id="0aR-3f-wOH" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nvv-tF-EgA"/>
-                        <viewControllerLayoutGuide type="bottom" id="iVn-G6-BuJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="W7c-da-lwX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0C-Ci-A1N">
-                                <rect key="frame" x="0.0" y="36" width="375" height="475"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
-
-A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them.
-
-Available courses encompass studio art, art history, art and modern culture, metal arts, ceramics, photography, film and visual arts. Levels range from introductory to AP.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TEST SECOND SCREEN" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-3g-mFh">
-                                <rect key="frame" x="67" y="383" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Mqb-6j-lmv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lGX-va-cfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5910" y="-2197"/>
-        </scene>
         <!--Power School View Controller-->
         <scene sceneID="EFB-Nh-9u5">
             <objects>
@@ -1131,7 +1074,159 @@ Available courses encompass studio art, art history, art and modern culture, met
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaP-9p-SBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5921" y="3215"/>
+            <point key="canvasLocation" x="6897" y="3251"/>
+        </scene>
+        <!--News Center-->
+        <scene sceneID="j03-VF-MjB">
+            <objects>
+                <viewController id="4ui-v7-N5b" customClass="NewsCenterViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ncK-BI-fCZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nkr-KC-OYE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iWQ-4G-b7W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="181" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k97-XB-KI6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="articleCell" rowHeight="201" id="gx7-ti-k0O" customClass="ArticleCell" customModule="HarritonMobileApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="201"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gx7-ti-k0O" id="eoG-vd-dRY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-Pr-dis">
+                                                    <rect key="frame" x="8" y="36" width="130" height="130"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="130" id="Lks-6h-FiW"/>
+                                                        <constraint firstAttribute="width" constant="130" id="dhI-ij-dSy"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title !!! Title !!! Title !!! Title !!! Title !!! Title !!! Title !!! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08d-3C-gAf">
+                                                    <rect key="frame" x="146" y="36" width="213" height="57.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egY-jQ-l7T">
+                                                    <rect key="frame" x="323" y="176" width="44" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text texttext texttext texttext texttext texttext text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJk-CJ-Odd">
+                                                    <rect key="frame" x="146" y="101.5" width="213" height="33.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="egY-jQ-l7T" firstAttribute="trailing" secondItem="eoG-vd-dRY" secondAttribute="trailingMargin" id="09J-qd-ahN"/>
+                                                <constraint firstItem="1Yd-Pr-dis" firstAttribute="centerY" secondItem="eoG-vd-dRY" secondAttribute="centerY" id="2Kr-CW-aS4"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="QJk-CJ-Odd" secondAttribute="trailing" constant="8" id="BVz-8h-wKH"/>
+                                                <constraint firstItem="egY-jQ-l7T" firstAttribute="top" relation="greaterThanOrEqual" secondItem="QJk-CJ-Odd" secondAttribute="bottom" constant="8" id="JOO-Wv-vMg"/>
+                                                <constraint firstItem="08d-3C-gAf" firstAttribute="leading" secondItem="1Yd-Pr-dis" secondAttribute="trailing" constant="8" id="Jph-Aj-Nqc"/>
+                                                <constraint firstItem="QJk-CJ-Odd" firstAttribute="leading" secondItem="1Yd-Pr-dis" secondAttribute="trailing" constant="8" id="TK6-t5-bkN"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="08d-3C-gAf" secondAttribute="trailing" constant="8" id="anE-4r-kvG"/>
+                                                <constraint firstItem="egY-jQ-l7T" firstAttribute="bottom" secondItem="eoG-vd-dRY" secondAttribute="bottomMargin" id="dIQ-be-VCL"/>
+                                                <constraint firstItem="08d-3C-gAf" firstAttribute="top" secondItem="1Yd-Pr-dis" secondAttribute="top" id="fos-4w-zOd"/>
+                                                <constraint firstItem="QJk-CJ-Odd" firstAttribute="top" secondItem="08d-3C-gAf" secondAttribute="bottom" constant="8" id="gcJ-6z-aWd"/>
+                                                <constraint firstItem="1Yd-Pr-dis" firstAttribute="leading" secondItem="eoG-vd-dRY" secondAttribute="leadingMargin" id="vC0-5x-YVf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="author" destination="egY-jQ-l7T" id="d8M-bP-WhZ"/>
+                                            <outlet property="desc" destination="QJk-CJ-Odd" id="fUN-np-yVh"/>
+                                            <outlet property="imgView" destination="1Yd-Pr-dis" id="66v-bT-klo"/>
+                                            <outlet property="title" destination="08d-3C-gAf" id="x7B-eB-z1b"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="News Center" id="TLN-oe-nnM">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="ifP-vP-9Wz"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="ifP-vP-9Wz" id="88R-QW-hCU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sGz-2Y-Kuh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="-2922"/>
+        </scene>
+        <!--Arts-->
+        <scene sceneID="bx4-51-wQ8">
+            <objects>
+                <viewController title="Arts" id="IKj-cc-68y" customClass="ArtsViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IhV-ur-oNv"/>
+                        <viewControllerLayoutGuide type="bottom" id="eQk-5q-dkE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6A9-Bq-0in">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKG-pq-OXU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s1z-Wr-sRe">
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Harriton has long been known for its outstanding fine arts, music and theater programs. A full range of curricular and co-curricular opportunities are available to students.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TM9-CF-tt2">
+                                        <rect key="frame" x="16" y="28" width="343" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="Fine Arts"/>
+                                            <segment title="Music"/>
+                                            <segment title="Theater"/>
+                                        </segments>
+                                        <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="ChangeLabel:" destination="IKj-cc-68y" eventType="valueChanged" id="Afi-89-Sdc"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B37-na-PJB">
+                                        <rect key="frame" x="0.0" y="58" width="375" height="481"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">The study of art provides students with new ways of seeing themselves and the world. In the supportive, respectful environment of our art classes, students are encouraged to express their ideas and come to understand the visions of their classmates and of professional artists. They are taught the language of aesthetics and how to think critically about the art that surrounds them. They also learn and practice the process of creation and engage in the many decisions that lead to a work of art.
+
+A team of experienced and dedicated art teachers deliver a rich and varied art curriculum. Students acquire technical skills, a broad knowledge of materials and media and the discipline and dedication necessary to complete complex projects. Students have the opportunity to explore their interests and continue their studies by taking a sequenced series of art courses in the media that appeal to them.
+
+Available courses encompass studio art, art history, art and modern culture, metal arts, ceramics, photography, film and visual arts. Levels range from introductory to AP.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HHS | Arts" id="97c-Wo-yKY">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="59z-os-M3I"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="Label" destination="B37-na-PJB" id="knt-Vo-IZm"/>
+                        <outlet property="menuButton" destination="59z-os-M3I" id="1p3-89-iDQ"/>
+                        <outlet property="segmentControl" destination="TM9-CF-tt2" id="ShX-Kw-AVC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D78-cW-Aml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5096.8000000000002" y="-2198.0509745127438"/>
         </scene>
     </scenes>
     <resources>
@@ -1143,7 +1238,7 @@ Available courses encompass studio art, art history, art and modern culture, met
         <image name="powerschool" width="186" height="123"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mcB-Ev-KCf"/>
-        <segue reference="dFl-bZ-mg8"/>
+        <segue reference="3S6-Re-eDI"/>
+        <segue reference="EDY-nz-3tt"/>
     </inferredMetricsTieBreakers>
 </document>
