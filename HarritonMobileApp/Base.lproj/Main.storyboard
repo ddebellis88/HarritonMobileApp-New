@@ -381,20 +381,20 @@
                                     <segue destination="AN1-iw-4Qg" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aa7-6u-W4R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keg-KU-hJD">
-                                <rect key="frame" x="0.0" y="418" width="300" height="249"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="blackboard_learn"/>
-                                <connections>
-                                    <segue destination="zXF-W1-mg1" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="vQc-Bl-YLX"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdB-4v-26f">
                                 <rect key="frame" x="214" y="221" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="harritonheader2"/>
                                 <connections>
                                     <segue destination="URW-pt-bRp" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="3Kw-PN-rP2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keg-KU-hJD">
+                                <rect key="frame" x="-20" y="400" width="300" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blackboard_learn"/>
+                                <connections>
+                                    <segue destination="zXF-W1-mg1" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="vQc-Bl-YLX"/>
                                 </connections>
                             </button>
                         </subviews>
