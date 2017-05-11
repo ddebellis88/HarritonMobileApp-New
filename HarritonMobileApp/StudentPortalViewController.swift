@@ -13,10 +13,11 @@ class StudentPortalViewController: UIViewController {
 
 
 
-    @IBOutlet weak var LLAButton: UIButton!
-    @IBOutlet weak var BBButton: UIButton!
-    @IBOutlet weak var THBButton: UIButton!
     @IBOutlet weak var PSButton: UIButton!
+    @IBOutlet weak var BBButton: UIButton!
+    @IBOutlet weak var HBButton: UIButton!
+    @IBOutlet weak var LLSButton: UIButton!
+    @IBOutlet weak var LLSAButton: UIButton!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()

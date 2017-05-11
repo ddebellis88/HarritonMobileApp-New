@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "bb.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "blackboard_learn copy.png",
       "scale" : "2x"
     },
     {
