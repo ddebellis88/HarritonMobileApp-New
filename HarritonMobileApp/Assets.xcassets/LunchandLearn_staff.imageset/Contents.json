@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "staff.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "PowerSchoolP-01-515x340 copy.png",
       "scale" : "2x"
     },
     {
