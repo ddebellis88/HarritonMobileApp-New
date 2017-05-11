@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710661EC4EA1B00CCC28E /* LLAViewController.swift */; };
 		CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650941EC2850A00919001 /* ArticleCell.swift */; };
 		CF8650971EC2850F00919001 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650961EC2850F00919001 /* Article.swift */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126710661EC4EA1B00CCC28E /* LLAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAViewController.swift; sourceTree = "<group>"; };
 		CF8650941EC2850A00919001 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		CF8650961EC2850F00919001 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
 				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
+				126710661EC4EA1B00CCC28E /* LLAViewController.swift */,
 				CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */,
 				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
 				CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */,
@@ -315,6 +318,7 @@
 				CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
+				126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */,
 				CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
 				CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */,

@@ -13,6 +13,7 @@ class StudentPortalViewController: UIViewController {
 
 
 
+    @IBOutlet weak var LLAButton: UIButton!
     @IBOutlet weak var BBButton: UIButton!
     @IBOutlet weak var THBButton: UIButton!
     @IBOutlet weak var PSButton: UIButton!
