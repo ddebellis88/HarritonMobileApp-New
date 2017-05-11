@@ -326,7 +326,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="595"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-ap-UyW">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-ap-UyW">
                                         <rect key="frame" x="0.0" y="-64" width="375" height="595"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">SHOULD MAKE THIS INTO A STUDENT ZONE. THIS WILL BE KEY FOR STUDENTS TO HAVE AND WILL BE VERY USEFUL. WHAT THE STUDENTS WANT AND NEED.</string>
