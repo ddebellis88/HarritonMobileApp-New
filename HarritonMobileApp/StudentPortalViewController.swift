@@ -11,8 +11,6 @@ import UIKit
 class StudentPortalViewController: UIViewController {
 
 
-
-
     @IBOutlet weak var PSButton: UIButton!
     @IBOutlet weak var BBButton: UIButton!
     @IBOutlet weak var HBButton: UIButton!
