@@ -12,6 +12,7 @@
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
 		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
 		CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA161321EC28064000D8395 /* NewsCenterViewController.swift */; };
+		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
 		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
 		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
 		CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88D1EAD92C20026061C /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
 		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
 		CFA161321EC28064000D8395 /* NewsCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCenterViewController.swift; sourceTree = "<group>"; };
+		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
 		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE1F88B1EAD92C20026061C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
 				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
+				CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */,
 				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
 				CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */,
 				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
@@ -317,6 +320,7 @@
 				CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */,
 				CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */,
 				CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */,
+				CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */,
 				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
 				CF8650971EC2850F00919001 /* Article.swift in Sources */,
 				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,

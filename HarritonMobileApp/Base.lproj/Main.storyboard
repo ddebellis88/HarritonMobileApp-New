@@ -374,15 +374,23 @@
                                 </subviews>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8X-Y2-hbD">
-                                <rect key="frame" x="-50" y="233" width="300" height="200"/>
+                                <rect key="frame" x="-109" y="192" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="powerschool"/>
                                 <connections>
                                     <segue destination="AN1-iw-4Qg" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aa7-6u-W4R"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="keg-KU-hJD">
+                                <rect key="frame" x="0.0" y="418" width="300" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blackboard_learn"/>
+                                <connections>
+                                    <segue destination="zXF-W1-mg1" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="vQc-Bl-YLX"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdB-4v-26f">
-                                <rect key="frame" x="209" y="233" width="300" height="200"/>
+                                <rect key="frame" x="214" y="221" width="300" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="harritonheader2"/>
                                 <connections>
@@ -396,6 +404,7 @@
                         <barButtonItem key="leftBarButtonItem" image="menu" id="PpD-i3-Akx"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="BBButton" destination="keg-KU-hJD" id="lMX-qw-ySA"/>
                         <outlet property="PSButton" destination="a8X-Y2-hbD" id="cjt-L1-TvM"/>
                         <outlet property="THBButton" destination="fdB-4v-26f" id="RH4-sh-nSm"/>
                         <outlet property="menuButton" destination="PpD-i3-Akx" id="i99-qv-Av8"/>
@@ -403,7 +412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQn-ut-a5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5921" y="2393"/>
+            <point key="canvasLocation" x="5920.8000000000002" y="2392.353823088456"/>
         </scene>
         <!--Power School View Controller-->
         <scene sceneID="PkQ-lQ-r0J">
@@ -422,7 +431,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="PowerSchool" id="HbS-yU-GlN">
-                                        <barButtonItem key="leftBarButtonItem" image="Back" id="Af8-FQ-sa4">
+                                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="Af8-FQ-sa4">
+                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="YKM-Qq-jCc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="EDY-nz-3tt"/>
                                             </connections>
@@ -464,7 +474,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="The Harriton Banner" id="bG2-GN-auI">
-                                        <barButtonItem key="leftBarButtonItem" image="Back" id="v9p-JM-v3s">
+                                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="v9p-JM-v3s">
+                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <segue destination="YKM-Qq-jCc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="mcB-Ev-KCf"/>
                                             </connections>
@@ -878,7 +889,8 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <items>
                                                         <navigationItem title="Settings" id="rhv-sL-c7h">
-                                                            <barButtonItem key="leftBarButtonItem" systemItem="reply" id="HI3-P8-Hvi">
+                                                            <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="HI3-P8-Hvi">
+                                                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <connections>
                                                                     <segue destination="9TT-yJ-Onw" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dFl-bZ-mg8"/>
                                                                 </connections>
@@ -1038,10 +1050,10 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
             </objects>
             <point key="canvasLocation" x="-1204" y="743"/>
         </scene>
-        <!--Power School View Controller-->
+        <!--Black Board View Controller-->
         <scene sceneID="EFB-Nh-9u5">
             <objects>
-                <viewController id="zXF-W1-mg1" customClass="PowerSchoolViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zXF-W1-mg1" customClass="BlackBoardViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dbH-3z-Shj"/>
                         <viewControllerLayoutGuide type="bottom" id="cn7-6d-Dmn"/>
@@ -1054,8 +1066,13 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="PowerSchool" id="cjA-AO-cD3">
-                                        <barButtonItem key="leftBarButtonItem" image="Back" id="H4A-g4-fWS"/>
+                                    <navigationItem title="Black Board" id="cjA-AO-cD3">
+                                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="H4A-g4-fWS">
+                                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="YKM-Qq-jCc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="pbl-Jm-y2U"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1069,12 +1086,12 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                     </view>
                     <connections>
                         <outlet property="backButton" destination="H4A-g4-fWS" id="cM8-98-UaG"/>
-                        <outlet property="webView" destination="n5f-28-yMP" id="7q5-cP-0sU"/>
+                        <outlet property="webView" destination="n5f-28-yMP" id="s5N-cr-S3n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaP-9p-SBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6897" y="3251"/>
+            <point key="canvasLocation" x="7194" y="3302"/>
         </scene>
         <!--News Center-->
         <scene sceneID="j03-VF-MjB">
@@ -1230,15 +1247,16 @@ Available courses encompass studio art, art history, art and modern culture, met
         </scene>
     </scenes>
     <resources>
-        <image name="Back" width="50" height="50"/>
+        <image name="Back-25 (1)" width="25" height="25"/>
         <image name="HHS Logo" width="200" height="200"/>
         <image name="Settings-50" width="25" height="25"/>
+        <image name="blackboard_learn" width="1200" height="900"/>
         <image name="harritonheader2" width="980" height="196"/>
         <image name="menu" width="22" height="22"/>
         <image name="powerschool" width="186" height="123"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3S6-Re-eDI"/>
+        <segue reference="dFl-bZ-mg8"/>
         <segue reference="EDY-nz-3tt"/>
     </inferredMetricsTieBreakers>
 </document>
