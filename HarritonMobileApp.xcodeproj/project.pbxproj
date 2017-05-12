@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710661EC4EA1B00CCC28E /* LLAViewController.swift */; };
+		126710691EC5301000CCC28E /* LLSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710681EC5301000CCC28E /* LLSViewController.swift */; };
+		1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267106A1EC5378F00CCC28E /* ZenithViewController.swift */; };
 		CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650941EC2850A00919001 /* ArticleCell.swift */; };
 		CF8650971EC2850F00919001 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650961EC2850F00919001 /* Article.swift */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
@@ -51,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		126710661EC4EA1B00CCC28E /* LLAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAViewController.swift; sourceTree = "<group>"; };
+		126710681EC5301000CCC28E /* LLSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSViewController.swift; sourceTree = "<group>"; };
+		1267106A1EC5378F00CCC28E /* ZenithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenithViewController.swift; sourceTree = "<group>"; };
 		CF8650941EC2850A00919001 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		CF8650961EC2850F00919001 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
 				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
+				1267106A1EC5378F00CCC28E /* ZenithViewController.swift */,
+				126710681EC5301000CCC28E /* LLSViewController.swift */,
 				126710661EC4EA1B00CCC28E /* LLAViewController.swift */,
 				CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */,
 				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
@@ -322,12 +328,14 @@
 				CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
 				CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */,
+				1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */,
 				CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */,
 				CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */,
 				CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */,
 				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
 				CF8650971EC2850F00919001 /* Article.swift in Sources */,
 				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,
+				126710691EC5301000CCC28E /* LLSViewController.swift in Sources */,
 				CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */,
 				CFE1F8C71EB0213E0026061C /* AcademicsViewController.swift in Sources */,
 			);
