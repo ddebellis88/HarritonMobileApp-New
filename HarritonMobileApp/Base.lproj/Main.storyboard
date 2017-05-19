@@ -849,17 +849,25 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome To Harriton Mobile App" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7m-kJ-dc8">
-                                <rect key="frame" x="110" y="20" width="265" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HHS Logo" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-e3-lhe">
-                                <rect key="frame" x="0.0" y="64" width="111" height="99"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hhs_logo" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-e3-lhe">
+                                <rect key="frame" x="0.0" y="-54" width="375" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HHS Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bpH-YY-k7s">
+                                <rect key="frame" x="-1860" y="-897" width="1892" height="1104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box" translatesAutoresizingMaskIntoConstraints="NO" id="M2D-xJ-Emb">
+                                <rect key="frame" x="16" y="137" width="343" height="510"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insert view to display the notification from announcements" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ms0-lN-xTO">
+                                <rect key="frame" x="32" y="285" width="311" height="215"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -878,7 +886,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2B-DN-gpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79" y="743"/>
+            <point key="canvasLocation" x="-79.200000000000003" y="742.5787106446777"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="0sA-8X-HAr">
@@ -1393,7 +1401,9 @@ Available courses encompass studio art, art history, art and modern culture, met
         <image name="LunchandLearn_staff" width="500" height="500"/>
         <image name="Settings-50" width="25" height="25"/>
         <image name="blackboard_learn" width="500" height="500"/>
+        <image name="box" width="1000" height="1000"/>
         <image name="harritonheader2" width="500" height="500"/>
+        <image name="hhs_logo" width="500" height="500"/>
         <image name="menu" width="22" height="22"/>
         <image name="powerschool" width="500" height="500"/>
         <image name="zenithharriton" width="500" height="500"/>
