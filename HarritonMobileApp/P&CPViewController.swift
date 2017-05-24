@@ -1,9 +1,9 @@
 //
-//  P&CPViewController.swift
+//  P_CPViewController.swift
 //  HarritonMobileApp
 //
-//  Created by David DeBellis (student HH) on 5/23/17.
-//  Copyright © 2017 David DeBellis. All rights reserved.
+//  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
+//  Copyright © 2017 David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar. All rights reserved.
 //
 
 import UIKit

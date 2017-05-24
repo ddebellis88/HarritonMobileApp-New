@@ -1,5 +1,5 @@
 //
-//  ViewControllerAllSides.swift
+//  AboutHarritonViewControllerAllSides.swift
 //  HarritonMobileApp
 //
 //  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
