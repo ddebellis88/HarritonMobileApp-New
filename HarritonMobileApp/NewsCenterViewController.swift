@@ -14,6 +14,7 @@ class NewsCenterViewController: UIViewController, UITableViewDelegate, UITableVi
     
 
     @IBOutlet weak var tableview: UITableView!
+    @IBOutlet weak var settingsButton: UIBarButtonItem!
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
     
@@ -68,18 +69,18 @@ class NewsCenterViewController: UIViewController, UITableViewDelegate, UITableVi
             do {
                 let xml = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as! [String : AnyObject]
                 
-                if let articlesFromXML = xml["articles"] as? [[String : AnyObject]] {
+                if let articlesFromXML = xml["item"] as? [[String : AnyObject]] {
                     for articleFromXML in articlesFromXML {
-                        let article = Article()
+                        let item = Article()
                         if let title = articleFromXML["title"] as? String, let author = articleFromXML["author"] as? String, let desc = articleFromXML["description"] as? String, let url = articleFromXML["url"] as? String, let urlToImage = articleFromXML["urlToImage"] as? String {
                             
-                            article.author = author
-                            article.desc = desc
-                            article.headline = title
-                            article.url = url
-                            article.imageUrl = urlToImage
+                            item.author = author
+                            item.desc = desc
+                            item.headline = title
+                            item.url = url
+                            item.imageUrl = urlToImage
                         }
-                        self.articles?.append(article)
+                        self.articles?.append(item)
                     }
                 }
                 DispatchQueue.main.async {

@@ -1,24 +1,22 @@
 //
-//  ViewControllerAllSides.swift
+//  SPViewController.swift
 //  HarritonMobileApp
 //
-//  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
-//  Copyright © 2017 David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar. All rights reserved.
+//  Created by David DeBellis (student HH) on 5/23/17.
+//  Copyright © 2017 David DeBellis. All rights reserved.
 //
 
 import UIKit
 
+class SPViewController: UIViewController {
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var infoButton: UIBarButtonItem!
+    @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        sideMenus()
-        customizeNavBar()
+
         // Do any additional setup after loading the view.
+        customizeNavBar()
+        webViewer()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,28 +24,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-     func sideMenus() {
-        if revealViewController() != nil {
-            menuButton.target = revealViewController()
-            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            revealViewController().rearViewRevealWidth = 275
-            revealViewController().rightViewRevealWidth = 160
-            
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-            
-//            infoButton.target = revealViewController()
-//            infoButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
-        }
-    
-    }
-    
-     func customizeNavBar() {
+    func customizeNavBar() {
         navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 255/255, green: 255/255, blue: 255/255, alpha: 1)
         navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 200/255, green: 0/255, blue: 0/255, alpha: 1)
         
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
+    
+    func webViewer() {
+        
+        let spURL = URL(string: "https://www.lmsd.org/uploaded/documents/Schools/HHS/hh_school_profile.pdf")
+        let spURLRequest = URLRequest(url: spURL!)
+        webView.loadRequest(spURLRequest)
+        
+    }
+    
 
     /*
     // MARK: - Navigation

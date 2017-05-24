@@ -1,38 +1,27 @@
 //
-//  PowerSchoolViewController.swift
+//  PGViewController.swift
 //  HarritonMobileApp
 //
-//  Created by David DeBellis (student HH) on 5/9/17.
+//  Created by David DeBellis (student HH) on 5/23/17.
 //  Copyright © 2017 David DeBellis. All rights reserved.
 //
 
 import UIKit
 
-class PowerSchoolViewController: UIViewController {
-
+class PGViewController: UIViewController {
 
     @IBOutlet weak var backButton: UIBarButtonItem!
-    @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
 
-        webViewer()
+        // Do any additional setup after loading the view.
         customizeNavBar()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-
+        // Dispose of any resources that can be recreated.
     }
-    
-    func webViewer() {
-        
-        let powerSchoolURL = URL(string: "https://powerschool.lmsd.org/public/home.html")
-        let powerSchoolURLRequest = URLRequest(url: powerSchoolURL!)
-        webView.loadRequest(powerSchoolURLRequest)
-        
-        }
     
     func customizeNavBar() {
         navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 255/255, green: 255/255, blue: 255/255, alpha: 1)
@@ -40,6 +29,16 @@ class PowerSchoolViewController: UIViewController {
         
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
+    
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }

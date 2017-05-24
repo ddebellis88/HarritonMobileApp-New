@@ -18,6 +18,7 @@ class BlackBoardViewController: UIViewController {
         
         
         webViewer()
+        customizeNavBar()
     }
     
     override func didReceiveMemoryWarning() {
@@ -31,6 +32,13 @@ class BlackBoardViewController: UIViewController {
         let BBURLRequest = URLRequest(url: BBURL!)
         webView.loadRequest(BBURLRequest)
         
+    }
+    
+    func customizeNavBar() {
+        navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+        navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 200/255, green: 0/255, blue: 0/255, alpha: 1)
+        
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
     
     
