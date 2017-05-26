@@ -56,11 +56,11 @@
 		CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */; };
 		CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */; };
 		CF290F411ED4BB9900439D0B /* OWPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F401ED4BB9900439D0B /* OWPViewController.swift */; };
-		CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650941EC2850A00919001 /* ArticleCell.swift */; };
-		CF8650971EC2850F00919001 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650961EC2850F00919001 /* Article.swift */; };
+		CF4261BC1ED8C12200749B68 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261BB1ED8C12200749B68 /* NewsTableViewController.swift */; };
+		CF4261BF1ED8C15000749B68 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261BD1ED8C15000749B68 /* NewsTableViewCell.swift */; };
+		CF4261C01ED8C15000749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261BE1ED8C15000749B68 /* Item.swift */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
 		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
-		CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA161321EC28064000D8395 /* NewsCenterViewController.swift */; };
 		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
 		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
 		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
@@ -147,11 +147,11 @@
 		CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDIAViewController.swift; sourceTree = "<group>"; };
 		CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUSViewController.swift; sourceTree = "<group>"; };
 		CF290F401ED4BB9900439D0B /* OWPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWPViewController.swift; sourceTree = "<group>"; };
-		CF8650941EC2850A00919001 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
-		CF8650961EC2850F00919001 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		CF4261BB1ED8C12200749B68 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		CF4261BD1ED8C15000749B68 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CF4261BE1ED8C15000749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
 		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
-		CFA161321EC28064000D8395 /* NewsCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCenterViewController.swift; sourceTree = "<group>"; };
 		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
 		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -215,11 +215,10 @@
 				CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */,
 				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
 				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
-				CFA161321EC28064000D8395 /* NewsCenterViewController.swift */,
+				CF4261BB1ED8C12200749B68 /* NewsTableViewController.swift */,
+				CF4261C11ED8C15A00749B68 /* NewsCenterClasses */,
 				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
 				CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */,
-				CF8650941EC2850A00919001 /* ArticleCell.swift */,
-				CF8650961EC2850F00919001 /* Article.swift */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -335,6 +334,15 @@
 				CF290F401ED4BB9900439D0B /* OWPViewController.swift */,
 			);
 			name = "Parent Info";
+			sourceTree = "<group>";
+		};
+		CF4261C11ED8C15A00749B68 /* NewsCenterClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CF4261BD1ED8C15000749B68 /* NewsTableViewCell.swift */,
+				CF4261BE1ED8C15000749B68 /* Item.swift */,
+			);
+			name = NewsCenterClasses;
 			sourceTree = "<group>";
 		};
 		CFE1F87A1EAD92C20026061C = {
@@ -545,6 +553,7 @@
 				CF290EE41ED4B7E900439D0B /* HisViewController.swift in Sources */,
 				CF290F2A1ED4BAED00439D0B /* 9ViewController.swift in Sources */,
 				CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */,
+				CF4261BF1ED8C15000749B68 /* NewsTableViewCell.swift in Sources */,
 				CF290EE81ED4B86F00439D0B /* C&SDViewController.swift in Sources */,
 				CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
@@ -555,14 +564,14 @@
 				CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */,
 				CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */,
 				CF290EE21ED4B7D200439D0B /* H&AViewController.swift in Sources */,
-				CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */,
+				CF4261C01ED8C15000749B68 /* Item.swift in Sources */,
 				CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */,
 				CF290F1B1ED4BA4100439D0B /* ActivitesViewController.swift in Sources */,
 				CF290F081ED4B99900439D0B /* FSViewController.swift in Sources */,
 				CF290EF11ED4B8DF00439D0B /* PGViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
 				CF290F061ED4B99200439D0B /* DigitalSportsViewController.swift in Sources */,
-				CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */,
+				CF4261BC1ED8C12200749B68 /* NewsTableViewController.swift in Sources */,
 				CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */,
 				CF290EEF1ED4B8BC00439D0B /* IBViewController.swift in Sources */,
 				CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */,
@@ -582,7 +591,6 @@
 				CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */,
 				CF290F1F1ED4BA6B00439D0B /* LBRViewController.swift in Sources */,
 				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
-				CF8650971EC2850F00919001 /* Article.swift in Sources */,
 				CF290F231ED4BA7900439D0B /* SHViewController.swift in Sources */,
 				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,
 				CF290F041ED4B97900439D0B /* ACViewController.swift in Sources */,
