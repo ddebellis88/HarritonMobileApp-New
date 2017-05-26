@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1202CE891ED7D6DC0042F8A7 /* ABS2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */; };
 		1202CE8B1ED7E07F0042F8A7 /* LALSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */; };
-		1202CE8D1ED881770042F8A7 /* AdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE8C1ED881770042F8A7 /* AdayViewController.swift */; };
 		1202CE8F1ED88D620042F8A7 /* BdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */; };
 		1202CE911ED88F9B0042F8A7 /* CdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */; };
 		1202CE931ED890330042F8A7 /* DdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE921ED890330042F8A7 /* DdayViewController.swift */; };
@@ -64,11 +63,11 @@
 		CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */; };
 		CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */; };
 		CF290F411ED4BB9900439D0B /* OWPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F401ED4BB9900439D0B /* OWPViewController.swift */; };
-		CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650941EC2850A00919001 /* ArticleCell.swift */; };
-		CF8650971EC2850F00919001 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8650961EC2850F00919001 /* Article.swift */; };
+		CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */; };
+		CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */; };
+		CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C51ED8D4AD00749B68 /* Item.swift */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
 		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
-		CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA161321EC28064000D8395 /* NewsCenterViewController.swift */; };
 		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
 		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
 		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
@@ -108,7 +107,6 @@
 /* Begin PBXFileReference section */
 		1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABS2ViewController.swift; sourceTree = "<group>"; };
 		1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LALSCViewController.swift; sourceTree = "<group>"; };
-		1202CE8C1ED881770042F8A7 /* AdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdayViewController.swift; sourceTree = "<group>"; };
 		1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BdayViewController.swift; sourceTree = "<group>"; };
 		1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CdayViewController.swift; sourceTree = "<group>"; };
 		1202CE921ED890330042F8A7 /* DdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DdayViewController.swift; sourceTree = "<group>"; };
@@ -163,11 +161,11 @@
 		CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDIAViewController.swift; sourceTree = "<group>"; };
 		CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUSViewController.swift; sourceTree = "<group>"; };
 		CF290F401ED4BB9900439D0B /* OWPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWPViewController.swift; sourceTree = "<group>"; };
-		CF8650941EC2850A00919001 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
-		CF8650961EC2850F00919001 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CF4261C51ED8D4AD00749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
 		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
-		CFA161321EC28064000D8395 /* NewsCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCenterViewController.swift; sourceTree = "<group>"; };
 		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
 		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -231,11 +229,10 @@
 				CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */,
 				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
 				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
-				CFA161321EC28064000D8395 /* NewsCenterViewController.swift */,
+				CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */,
+				CF4261C81ED8D4C200749B68 /* NewsCenterClasses */,
 				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
 				CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */,
-				CF8650941EC2850A00919001 /* ArticleCell.swift */,
-				CF8650961EC2850F00919001 /* Article.swift */,
 			);
 			name = SideMenu;
 			sourceTree = "<group>";
@@ -252,7 +249,6 @@
 				CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */,
 				1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */,
 				1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */,
-				1202CE8C1ED881770042F8A7 /* AdayViewController.swift */,
 				1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */,
 				1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */,
 				1202CE921ED890330042F8A7 /* DdayViewController.swift */,
@@ -361,6 +357,15 @@
 			name = "Parent Info";
 			sourceTree = "<group>";
 		};
+		CF4261C81ED8D4C200749B68 /* NewsCenterClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */,
+				CF4261C51ED8D4AD00749B68 /* Item.swift */,
+			);
+			name = NewsCenterClasses;
+			sourceTree = "<group>";
+		};
 		CFE1F87A1EAD92C20026061C = {
 			isa = PBXGroup;
 			children = (
@@ -386,15 +391,15 @@
 			children = (
 				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
 				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
-				CF290EDA1ED4A6A800439D0B /* SideMenu */,
-				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
-				CF290ED41ED337CC00439D0B /* InfoViewController.swift */,
 				CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */,
+				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
+				CF290EDA1ED4A6A800439D0B /* SideMenu */,
+				CF290ED41ED337CC00439D0B /* InfoViewController.swift */,
 				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
-				CFE1F8921EAD92C20026061C /* Info.plist */,
 				CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */,
+				CFE1F8921EAD92C20026061C /* Info.plist */,
 			);
 			path = HarritonMobileApp;
 			sourceTree = "<group>";
@@ -574,6 +579,7 @@
 				CF290EE81ED4B86F00439D0B /* C&SDViewController.swift in Sources */,
 				CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
+				CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */,
 				CF290F281ED4BAE500439D0B /* CCRFViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
 				CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */,
@@ -581,7 +587,6 @@
 				CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */,
 				CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */,
 				CF290EE21ED4B7D200439D0B /* H&AViewController.swift in Sources */,
-				CFA161331EC28064000D8395 /* NewsCenterViewController.swift in Sources */,
 				CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */,
 				CF290F1B1ED4BA4100439D0B /* ActivitesViewController.swift in Sources */,
 				1202CE8B1ED7E07F0042F8A7 /* LALSCViewController.swift in Sources */,
@@ -590,7 +595,6 @@
 				CF290EF11ED4B8DF00439D0B /* PGViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
 				CF290F061ED4B99200439D0B /* DigitalSportsViewController.swift in Sources */,
-				CF8650951EC2850A00919001 /* ArticleCell.swift in Sources */,
 				CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */,
 				CF290EEF1ED4B8BC00439D0B /* IBViewController.swift in Sources */,
 				CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */,
@@ -598,11 +602,12 @@
 				CF290ED51ED337CC00439D0B /* InfoViewController.swift in Sources */,
 				CF290F1D1ED4BA6200439D0B /* BSViewController.swift in Sources */,
 				1202CE911ED88F9B0042F8A7 /* CdayViewController.swift in Sources */,
+				CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */,
 				1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */,
 				CF290EE61ED4B80800439D0B /* MeetHHSViewController.swift in Sources */,
 				CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */,
 				CF290EF51ED4B8EF00439D0B /* PSUViewController.swift in Sources */,
-				1202CE8D1ED881770042F8A7 /* AdayViewController.swift in Sources */,
+				CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */,
 				12305D9E1ED6778B00CE0102 /* NavianceViewController.swift in Sources */,
 				CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */,
 				CF290EEA1ED4B88100439D0B /* SPViewController.swift in Sources */,
@@ -614,7 +619,6 @@
 				CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */,
 				CF290F1F1ED4BA6B00439D0B /* LBRViewController.swift in Sources */,
 				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
-				CF8650971EC2850F00919001 /* Article.swift in Sources */,
 				CF290F231ED4BA7900439D0B /* SHViewController.swift in Sources */,
 				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,
 				CF290F041ED4B97900439D0B /* ACViewController.swift in Sources */,
