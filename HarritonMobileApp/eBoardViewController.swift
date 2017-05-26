@@ -1,14 +1,14 @@
 //
-//  LLSViewController.swift
+//  eBoardViewController.swift
 //  HarritonMobileApp
 //
-//  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
-//  Copyright © 2017 David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar. All rights reserved.
+//  Created by Wil Levonuk (student HH) on 5/26/17.
+//  Copyright © 2017 David DeBellis. All rights reserved.
 //
 
 import UIKit
 
-class LLSViewController: UIViewController {
+class eBoardViewController: UIViewController {
 
     
     
@@ -30,10 +30,9 @@ class LLSViewController: UIViewController {
     
     func webViewer() {
         
-        let LLSURL = URL(string: "https://i44.photobucket.com/albums/f24/Harriton/Screen%20Shot%202017-05-11%20at%208.00.05%20PM_zps4z4fb286.png~original")
-        let LLSURLRequest = URLRequest(url: LLSURL!)
-        webView.loadRequest(LLSURLRequest
-        )
+        let eBURL = URL(string: "https://www.lmsd.org/harritonhs/academics/eboards/")
+        let eBURLRequest = URLRequest(url: eBURL!)
+        webView.loadRequest(eBURLRequest)
         
     }
     
@@ -44,7 +43,4 @@ class LLSViewController: UIViewController {
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
     
-    
-    
 }
-
