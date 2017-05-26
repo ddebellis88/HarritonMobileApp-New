@@ -94,6 +94,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF290EDA1ED4A6A800439D0B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF290EDB1ED4A6E200439D0B /* SPButtons */,
+				CF290EDC1ED4A75100439D0B /* SubMenu */,
+				CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */,
+				CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */,
+				CFE1F8C81EB021540026061C /* ArtsViewController.swift */,
+				CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */,
+				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
+				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
+				CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */,
+				CF4261C81ED8D4C200749B68 /* NewsCenterClasses */,
+				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
+				CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		CF290EDB1ED4A6E200439D0B /* SPButtons */ = {
+			isa = PBXGroup;
+			children = (
+				12EA84441ED7B9190063F8C4 /* ABSViewController.swift */,
+				12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */,
+				1267106A1EC5378F00CCC28E /* ZenithViewController.swift */,
+				126710661EC4EA1B00CCC28E /* LLAViewController.swift */,
+				CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */,
+				CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */,
+				CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */,
+				1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */,
+				1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */,
+				1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */,
+				1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */,
+				1202CE921ED890330042F8A7 /* DdayViewController.swift */,
+				1202CE941ED8BC680042F8A7 /* eBoardViewController.swift */,
+			);
+			name = SPButtons;
+			sourceTree = "<group>";
+		};
+		CF290EDC1ED4A75100439D0B /* SubMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF290F441ED4BC8500439D0B /* Parent Info */,
+				CF290F2B1ED4BAF400439D0B /* School Counseling */,
+				CF290F241ED4BA8100439D0B /* Campus Life */,
+				CF290F021ED4B94100439D0B /* Academics */,
+				CF290F191ED4B9EA00439D0B /* Athletics */,
+				CF290EED1ED4B89300439D0B /* About Harriton */,
+			);
+			name = SubMenu;
+			sourceTree = "<group>";
+		};
+		CF290EED1ED4B89300439D0B /* About Harriton */ = {
+			isa = PBXGroup;
+			children = (
+				CF290EDD1ED4B74700439D0B /* PWViewController.swift */,
+				CF290EDF1ED4B7BD00439D0B /* F&SViewController.swift */,
+				CF290EE11ED4B7D200439D0B /* H&AViewController.swift */,
+				CF290EE31ED4B7E900439D0B /* HisViewController.swift */,
+				CF290EE51ED4B80800439D0B /* MeetHHSViewController.swift */,
+				CF290EE71ED4B86F00439D0B /* C&SDViewController.swift */,
+				CF290EE91ED4B88100439D0B /* SPViewController.swift */,
+				CF290EEB1ED4B88800439D0B /* CalViewController.swift */,
+			);
+			name = "About Harriton";
+			sourceTree = "<group>";
+		};
+		CF290F021ED4B94100439D0B /* Academics */ = {
+			isa = PBXGroup;
+			children = (
+				CF290EEE1ED4B8BC00439D0B /* IBViewController.swift */,
+				CF290EF01ED4B8DF00439D0B /* PGViewController.swift */,
+				CF290EF21ED4B8E700439D0B /* POWERViewController.swift */,
+				CF290EF41ED4B8EF00439D0B /* PSUViewController.swift */,
+				CF290EF81ED4B91000439D0B /* SummerProViewController.swift */,
+				CF290EFA1ED4B91F00439D0B /* SummerReadViewController.swift */,
+				CF290EFC1ED4B92700439D0B /* ICViewController.swift */,
+				CF290EFE1ED4B92F00439D0B /* KeystoneViewController.swift */,
+				CF290F001ED4B93700439D0B /* ROViewController.swift */,
+			);
+			name = Academics;
+			sourceTree = "<group>";
+		};
+		CF290F191ED4B9EA00439D0B /* Athletics */ = {
+			isa = PBXGroup;
+			children = (
+				CF290F031ED4B97900439D0B /* ACViewController.swift */,
+				CF290F051ED4B99200439D0B /* DigitalSportsViewController.swift */,
+				CF290F071ED4B99900439D0B /* FSViewController.swift */,
+				CF290F091ED4B99F00439D0B /* WSViewController.swift */,
+				CF290F0B1ED4B9A500439D0B /* SSViewController.swift */,
+				CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */,
+				CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */,
+				CF290F111ED4B9C300439D0B /* CLSViewController.swift */,
+				CF290F131ED4B9CE00439D0B /* WoFViewController.swift */,
+				CF290F171ED4B9E000439D0B /* CIViewController.swift */,
+			);
+			name = Athletics;
+			sourceTree = "<group>";
+		};
+		CF290F241ED4BA8100439D0B /* Campus Life */ = {
+			isa = PBXGroup;
+			children = (
+				CF290F1A1ED4BA4100439D0B /* ActivitesViewController.swift */,
+				CF290F1C1ED4BA6200439D0B /* BSViewController.swift */,
+				CF290F1E1ED4BA6B00439D0B /* LBRViewController.swift */,
+				CF290F201ED4BA7200439D0B /* LDSViewController.swift */,
+				CF290F221ED4BA7900439D0B /* SHViewController.swift */,
+			);
+			name = "Campus Life";
+			sourceTree = "<group>";
+		};
+		CF290F2B1ED4BAF400439D0B /* School Counseling */ = {
+			isa = PBXGroup;
+			children = (
+				CF290F251ED4BADD00439D0B /* OSViewController.swift */,
+				CF290F271ED4BAE500439D0B /* CCRFViewController.swift */,
+				CF290F291ED4BAED00439D0B /* 9ViewController.swift */,
+			);
+			name = "School Counseling";
+			sourceTree = "<group>";
+		};
+		CF290F441ED4BC8500439D0B /* Parent Info */ = {
+			isa = PBXGroup;
+			children = (
+				CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */,
+				CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */,
+				CF290F301ED4BB3900439D0B /* AIViewController.swift */,
+				CF290F321ED4BB4000439D0B /* RIViewController.swift */,
+				CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */,
+				CF290F381ED4BB7000439D0B /* SchoolStoreViewController.swift */,
+				CF290F3A1ED4BB7C00439D0B /* MySchoolAccountViewController.swift */,
+				CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */,
+				CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */,
+				CF290F401ED4BB9900439D0B /* OWPViewController.swift */,
+			);
+			name = "Parent Info";
+			sourceTree = "<group>";
+		};
+		CF4261C81ED8D4C200749B68 /* NewsCenterClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */,
+				CF4261C51ED8D4AD00749B68 /* Item.swift */,
+			);
+			name = NewsCenterClasses;
+			sourceTree = "<group>";
+		};
 		CFE1F87A1EAD92C20026061C = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +267,10 @@
 			children = (
 				CFE1F8861EAD92C20026061C /* AppDelegate.swift */,
 				CFE1F88A1EAD92C20026061C /* Main.storyboard */,
-				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
 				CFE1F88F1EAD92C20026061C /* LaunchScreen.storyboard */,
+				CFE1F88D1EAD92C20026061C /* Assets.xcassets */,
+				CF290EDA1ED4A6A800439D0B /* SideMenu */,
+				CF290ED41ED337CC00439D0B /* InfoViewController.swift */,
 				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
 				CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */,
 				CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */,
@@ -132,8 +282,8 @@
 				CF2846471EB3E74D00CC02F4 /* StudentPortalViewController.swift */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
-				CFE1F8921EAD92C20026061C /* Info.plist */,
 				CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */,
+				CFE1F8921EAD92C20026061C /* Info.plist */,
 			);
 			path = HarritonMobileApp;
 			sourceTree = "<group>";
@@ -291,17 +441,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF290EF31ED4B8E700439D0B /* POWERViewController.swift in Sources */,
+				CF290F0C1ED4B9A500439D0B /* SSViewController.swift in Sources */,
+				1202CE931ED890330042F8A7 /* DdayViewController.swift in Sources */,
+				1202CE951ED8BC680042F8A7 /* eBoardViewController.swift in Sources */,
+				CF290EF91ED4B91000439D0B /* SummerProViewController.swift in Sources */,
 				CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
 				CF2846481EB3E74D00CC02F4 /* StudentPortalViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
+				CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */,
+				126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */,
+				CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */,
+				CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */,
+				CF290EE21ED4B7D200439D0B /* H&AViewController.swift in Sources */,
+				CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */,
+				CF290F1B1ED4BA4100439D0B /* ActivitesViewController.swift in Sources */,
+				1202CE8B1ED7E07F0042F8A7 /* LALSCViewController.swift in Sources */,
+				1202CE891ED7D6DC0042F8A7 /* ABS2ViewController.swift in Sources */,
+				CF290F081ED4B99900439D0B /* FSViewController.swift in Sources */,
+				CF290EF11ED4B8DF00439D0B /* PGViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
+				CF290F061ED4B99200439D0B /* DigitalSportsViewController.swift in Sources */,
+				CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */,
+				CF290EEF1ED4B8BC00439D0B /* IBViewController.swift in Sources */,
+				CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */,
+				CF290F311ED4BB3900439D0B /* AIViewController.swift in Sources */,
+				CF290ED51ED337CC00439D0B /* InfoViewController.swift in Sources */,
+				CF290F1D1ED4BA6200439D0B /* BSViewController.swift in Sources */,
+				1202CE911ED88F9B0042F8A7 /* CdayViewController.swift in Sources */,
+				CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */,
+				1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */,
+				CF290EE61ED4B80800439D0B /* MeetHHSViewController.swift in Sources */,
 				CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */,
+				CF290EF51ED4B8EF00439D0B /* PSUViewController.swift in Sources */,
+				CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */,
+				12305D9E1ED6778B00CE0102 /* NavianceViewController.swift in Sources */,
 				CFE1F8B71EAD93190026061C /* SWRevealViewController.m in Sources */,
+				CF290EEA1ED4B88100439D0B /* SPViewController.swift in Sources */,
+				CF290F391ED4BB7000439D0B /* SchoolStoreViewController.swift in Sources */,
+				CF290F3B1ED4BB7C00439D0B /* MySchoolAccountViewController.swift in Sources */,
+				CF290F211ED4BA7200439D0B /* LDSViewController.swift in Sources */,
+				CF290F411ED4BB9900439D0B /* OWPViewController.swift in Sources */,
+				12EA84451ED7B9190063F8C4 /* ABSViewController.swift in Sources */,
+				CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */,
+				CF290F1F1ED4BA6B00439D0B /* LBRViewController.swift in Sources */,
 				CFE1F8CB1EB0216D0026061C /* AthleticsViewController.swift in Sources */,
+				CF290F231ED4BA7900439D0B /* SHViewController.swift in Sources */,
 				CFE1F8C91EB021540026061C /* ArtsViewController.swift in Sources */,
+				CF290F041ED4B97900439D0B /* ACViewController.swift in Sources */,
+				1202CE8F1ED88D620042F8A7 /* BdayViewController.swift in Sources */,
+				CF290F011ED4B93700439D0B /* ROViewController.swift in Sources */,
 				CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */,
+				CF290EE01ED4B7BD00439D0B /* F&SViewController.swift in Sources */,
 				CFE1F8C71EB0213E0026061C /* AcademicsViewController.swift in Sources */,
+				CF290F2D1ED4BB2900439D0B /* HSAViewController.swift in Sources */,
+				CF290F261ED4BADD00439D0B /* OSViewController.swift in Sources */,
+				CF290F141ED4B9CE00439D0B /* WoFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

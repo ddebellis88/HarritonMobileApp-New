@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -163,8 +164,29 @@
                                             <segue destination="uZ9-iu-zGf" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1hc-kN-Ps6"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0on-9s-rxp" userLabel="School Counseling">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5gK-Ma-jsM" userLabel="News Center">
                                         <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5gK-Ma-jsM" id="kLr-AT-KLa" userLabel="News Center">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7q-A9-nFX">
+                                                    <rect key="frame" x="30" y="11" width="99" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="4Wm-71-TuG" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="anp-hr-2mp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0on-9s-rxp" userLabel="School Counseling">
+                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0on-9s-rxp" id="SIF-Do-Qza" userLabel="School Counseling">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -185,7 +207,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RRz-aW-M3C" userLabel="Parent Info">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RRz-aW-M3C" id="Vho-4h-af4" userLabel="Parent Info">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -206,7 +228,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SBq-Zo-hhM" userLabel="Student Portal">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SBq-Zo-hhM" id="Qqz-pU-f5s" userLabel="Student Portal">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -237,7 +259,23 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deY-9F-dkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1342" y="-1177"/>
+            <point key="canvasLocation" x="1358" y="-1124"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9l0-cu-duu">
+            <objects>
+                <navigationController id="4Wm-71-TuG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1a1-3O-u6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BkC-bm-bC9" kind="relationship" relationship="rootViewController" id="vgc-Nn-ha6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bwx-D8-QxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1358" y="-2084"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="75w-vQ-vxW">
@@ -281,10 +319,15 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Parent Info" id="CrJ-Qg-WuN">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="uO0-Y1-UKN"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="DWV-Go-Qkq">
+                            <connections>
+                                <segue destination="2hW-r1-HBt" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="OSS-zb-aKn"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="uO0-Y1-UKN" id="xRP-DK-i3X"/>
@@ -322,8 +365,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ney-Ze-VKr">
-                                <rect key="frame" x="0.0" y="64" width="375" height="595"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xi2-kq-c4k">
+                                <rect key="frame" x="16" y="72" width="96" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uuv-ap-UyW">
@@ -336,7 +379,7 @@
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Student Portal" id="gEf-03-LTS">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="vEk-Hf-MZg"/>
@@ -423,10 +466,15 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | School Counseling" id="2nU-Dr-DWv">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="31n-ca-Aic"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="IBH-RZ-bPq">
+                            <connections>
+                                <segue destination="2o8-Vl-051" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="VYp-EN-nPk"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="31n-ca-Aic" id="vEZ-yb-eY5"/>
@@ -478,10 +526,15 @@ Please note that we will respond as quickly as possible, but may need a day or t
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Campus Life" id="cmU-yR-E8b">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="PMb-RC-vtP"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="dSQ-6Y-G3C">
+                            <connections>
+                                <segue destination="vcy-fG-s4F" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Rvk-tK-F6g"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="PMb-RC-vtP" id="Ndb-kg-fgG"/>
@@ -535,10 +588,15 @@ Participation in the athletic program is considered a privilege extended by the 
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Athletics" id="RB3-lf-aUL">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="SF2-SW-QAh"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="0pG-J9-i91">
+                            <connections>
+                                <segue destination="UBr-pb-o1J" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="h5G-AJ-lUA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="SF2-SW-QAh" id="eZI-rb-tYa"/>
@@ -557,7 +615,7 @@ Participation in the athletic program is considered a privilege extended by the 
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="cQx-cV-uU7" kind="relationship" relationship="rootViewController" id="wk9-ZU-N7s"/>
+                        <segue destination="IKj-cc-68y" kind="relationship" relationship="rootViewController" id="buD-b5-6SK"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="un3-Vg-FMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -674,10 +732,15 @@ Harriton provides comprehensive programs and services for students with special 
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Academics" id="3CR-C2-8LR">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="Zhh-ZU-lLR"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="VC7-Rw-2BW">
+                            <connections>
+                                <segue destination="1hJ-GV-xaO" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="bgh-AD-TXm"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="Zhh-ZU-lLR" id="TNC-Ca-SA8"/>
@@ -751,29 +814,66 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="tintColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | About Harriton" id="0yC-gt-JPR">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="j0Y-b7-JIP" userLabel="Menu Button For All Sides"/>
+                        <barButtonItem key="rightBarButtonItem" image="Unchecked Circle Filled-25" id="WZd-g2-NGb">
+                            <connections>
+                                <segue destination="8ub-qf-txS" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="lDi-dy-HMi"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="j0Y-b7-JIP" id="EBH-uF-yj3"/>
+                        <outlet property="submenuButton" destination="WZd-g2-NGb" id="tKn-kc-h9p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YwY-dS-ctu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5096.8000000000002" y="-3546.4767616191907"/>
         </scene>
-        <!--Front Page-->
-        <scene sceneID="aLq-dQ-f7p">
+        <!--Navigation Controller-->
+        <scene sceneID="gtw-de-QWh">
             <objects>
-                <viewController title="Front Page" id="uxK-CA-FSy" customClass="ViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="8ub-qf-txS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ff1-8B-89v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WPT-eF-bKI" kind="relationship" relationship="rootViewController" id="a3v-CV-gTf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Kx-RT-yCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6009" y="-3546"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vmk-iv-70e">
+            <objects>
+                <navigationController id="yRU-yw-gfH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0IQ-tz-iYV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="frw-db-wrp" kind="relationship" relationship="rootViewController" id="G3b-Ow-W0Q"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rta-WI-YnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9302" y="-12016"/>
+        </scene>
+        <!--Principal's Welcome-->
+        <scene sceneID="Qk6-vw-obf">
+            <objects>
+                <viewController id="frw-db-wrp" customClass="PWViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8p1-8A-rWT"/>
-                        <viewControllerLayoutGuide type="bottom" id="1ie-Pl-nXG"/>
+                        <viewControllerLayoutGuide type="top" id="Is9-i4-cgs"/>
+                        <viewControllerLayoutGuide type="bottom" id="Myp-qj-act"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5QM-rK-yXs" customClass="View">
+                    <view key="view" contentMode="scaleToFill" id="Z4C-YD-GBu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -784,24 +884,39 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Welcome To Harriton Mobile App" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7m-kJ-dc8">
                                 <rect key="frame" x="110" y="64" width="265" height="133"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                <string key="text">Greetings from Harriton!
+
+Mr. Scott Weinstein, Principal
+On behalf of the students and staff at Harriton High School, I would like to welcome you to our website and thank you for your interest in our school. I encourage you to become a frequent visitor to our site to learn more about our stellar programs, outstanding student achievements, and curricular initiatives.
+
+It is an honor and a privilege to be the principal of one of the nation's finest public high schools, noted for its rich tradition of academic and co-curricular excellence. In recent years, Harriton has been recognized at the local, regional and national level for student and staff achievements and has been at or near the top of multiple "best schools" lists. Our success is best reflected, however, in daily efforts to provide a fulfilling, challenging, individualized educational experience for each student. We are committed to creating a culture of respect and a safe, nurturing learning environment that supports students' emotional, intellectual, social and physical needs. We understand that this can only be accomplished in partnership with families, through active, meaningful connections between home and school.
+
+Ultimately, the Harriton experience is defined by the efforts of an extraordinary team of dedicated teachers. Our staff members go above and beyond to provide world-class instruction and inspiration every day in the classroom. I am humbled and proud to work with such a capable and committed team. Together we will prepare our students for the road ahead and help them develop the skills necessary to adapt and succeed in a rapidly changing world.
+
+Finally, I believe one of the qualities that makes Harriton so special is our dedication to service. Harriton students and staff spend thousands of hours each year in the community, giving back and making a difference. We are fortunate and grateful to be part of a community with incredible resources and opportunities. A spirit of service to others ensures that we remain grounded, humble, and kind.
+
+I look forward to a successful and intellectually stimulating school year.
+
+Mr. Scott Weinstein
+
+Principal</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HHS | Home of the Rams" id="Web-1K-k36">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="CBV-MQ-R2z"/>
-                        <barButtonItem key="rightBarButtonItem" image="Settings-50" id="SP6-C2-WBs">
+                        <barButtonItem key="rightBarButtonItem" image="Info_25" id="hNI-ub-MXx">
                             <connections>
-                                <segue destination="prd-in-LtF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dKp-83-Mr3"/>
+                                <segue destination="k7I-Fs-9AP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="idh-w2-4e9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="infoButton" destination="hNI-ub-MXx" id="Xax-9e-pHe"/>
                         <outlet property="menuButton" destination="CBV-MQ-R2z" id="mYZ-RU-d48"/>
-                        <outlet property="settingsButton" destination="SP6-C2-WBs" id="ROw-c7-AtO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G2B-DN-gpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -949,7 +1064,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZSS-mb-YGx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="953" y="780"/>
+            <point key="canvasLocation" x="2334" y="-2922"/>
         </scene>
         <!--Initial View Controller-->
         <scene sceneID="82l-vc-xGh">
@@ -962,7 +1077,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
                     <view key="view" contentMode="scaleToFill" id="4Nn-7z-rKE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <segue destination="4Xe-d8-7rM" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="fvV-ix-Fps"/>
@@ -995,8 +1110,21 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
     <resources>
         <image name="Back-25" width="25" height="25"/>
         <image name="HHS Logo" width="200" height="200"/>
-        <image name="Settings-50" width="25" height="25"/>
+        <image name="Info_25" width="25" height="25"/>
+        <image name="LunchandLearn_schedule" width="500" height="500"/>
+        <image name="LunchandLearn_staff" width="500" height="500"/>
+        <image name="SpecialSchedules" width="500" height="500"/>
+        <image name="Unchecked Circle Filled-25" width="25" height="25"/>
+        <image name="blackboard_learn" width="500" height="500"/>
+        <image name="box" width="1000" height="1000"/>
+        <image name="earlydiss" width="697" height="263"/>
+        <image name="harritonheader2" width="500" height="500"/>
+        <image name="hhs_logo" width="500" height="500"/>
         <image name="menu" width="22" height="22"/>
+        <image name="naviance" width="500" height="500"/>
+        <image name="powerschool" width="500" height="500"/>
+        <image name="white-space" width="55" height="20"/>
+        <image name="zenithharriton" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dFl-bZ-mg8"/>

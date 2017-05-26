@@ -1,5 +1,5 @@
 //
-//  ViewControllerAllSides.swift
+//  AboutHarritonViewControllerAllSides.swift
 //  HarritonMobileApp
 //
 //  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
@@ -11,6 +11,7 @@ import UIKit
 class AboutHarritonViewControllerAllSides: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet weak var submenuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,8 +32,8 @@ class AboutHarritonViewControllerAllSides: UIViewController {
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-        
     }
+    
     
     func customizeNavBar() {
         navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 255/255, green: 255/255, blue: 255/255, alpha: 1)

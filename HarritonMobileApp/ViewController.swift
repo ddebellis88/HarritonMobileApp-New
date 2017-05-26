@@ -1,5 +1,5 @@
 //
-//  ViewControllerAllSides.swift
+//  ViewController.swift
 //  HarritonMobileApp
 //
 //  Created by David DeBellis, Wil Levonuk, Behzad Dah Dahee & Kedar Karhadkar on 4/24/17.
@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var settingsButton: UIBarButtonItem!
+    @IBOutlet weak var infoButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -35,6 +35,9 @@ class ViewController: UIViewController {
             revealViewController().rightViewRevealWidth = 160
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
+//            infoButton.target = revealViewController()
+//            infoButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
         }
     
     }
