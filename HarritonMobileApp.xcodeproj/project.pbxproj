@@ -7,7 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF2846481EB3E74D00CC02F4 /* StudentPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2846471EB3E74D00CC02F4 /* StudentPortalViewController.swift */; };
+		1202CE891ED7D6DC0042F8A7 /* ABS2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */; };
+		1202CE8B1ED7E07F0042F8A7 /* LALSCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */; };
+		1202CE8F1ED88D620042F8A7 /* BdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */; };
+		1202CE911ED88F9B0042F8A7 /* CdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */; };
+		1202CE931ED890330042F8A7 /* DdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE921ED890330042F8A7 /* DdayViewController.swift */; };
+		1202CE951ED8BC680042F8A7 /* eBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1202CE941ED8BC680042F8A7 /* eBoardViewController.swift */; };
+		12305D9E1ED6778B00CE0102 /* NavianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */; };
+		126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710661EC4EA1B00CCC28E /* LLAViewController.swift */; };
+		1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267106A1EC5378F00CCC28E /* ZenithViewController.swift */; };
+		12EA84451ED7B9190063F8C4 /* ABSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA84441ED7B9190063F8C4 /* ABSViewController.swift */; };
+		CF290ED51ED337CC00439D0B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290ED41ED337CC00439D0B /* InfoViewController.swift */; };
+		CF290EDE1ED4B74700439D0B /* PWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EDD1ED4B74700439D0B /* PWViewController.swift */; };
+		CF290EE01ED4B7BD00439D0B /* F&SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EDF1ED4B7BD00439D0B /* F&SViewController.swift */; };
+		CF290EE21ED4B7D200439D0B /* H&AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EE11ED4B7D200439D0B /* H&AViewController.swift */; };
+		CF290EE41ED4B7E900439D0B /* HisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EE31ED4B7E900439D0B /* HisViewController.swift */; };
+		CF290EE61ED4B80800439D0B /* MeetHHSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EE51ED4B80800439D0B /* MeetHHSViewController.swift */; };
+		CF290EE81ED4B86F00439D0B /* C&SDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EE71ED4B86F00439D0B /* C&SDViewController.swift */; };
+		CF290EEA1ED4B88100439D0B /* SPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EE91ED4B88100439D0B /* SPViewController.swift */; };
+		CF290EEC1ED4B88800439D0B /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EEB1ED4B88800439D0B /* CalViewController.swift */; };
+		CF290EEF1ED4B8BC00439D0B /* IBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EEE1ED4B8BC00439D0B /* IBViewController.swift */; };
+		CF290EF11ED4B8DF00439D0B /* PGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EF01ED4B8DF00439D0B /* PGViewController.swift */; };
+		CF290EF31ED4B8E700439D0B /* POWERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EF21ED4B8E700439D0B /* POWERViewController.swift */; };
+		CF290EF51ED4B8EF00439D0B /* PSUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EF41ED4B8EF00439D0B /* PSUViewController.swift */; };
+		CF290EF91ED4B91000439D0B /* SummerProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EF81ED4B91000439D0B /* SummerProViewController.swift */; };
+		CF290EFB1ED4B91F00439D0B /* SummerReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EFA1ED4B91F00439D0B /* SummerReadViewController.swift */; };
+		CF290EFD1ED4B92700439D0B /* ICViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EFC1ED4B92700439D0B /* ICViewController.swift */; };
+		CF290EFF1ED4B92F00439D0B /* KeystoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EFE1ED4B92F00439D0B /* KeystoneViewController.swift */; };
+		CF290F011ED4B93700439D0B /* ROViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F001ED4B93700439D0B /* ROViewController.swift */; };
+		CF290F041ED4B97900439D0B /* ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F031ED4B97900439D0B /* ACViewController.swift */; };
+		CF290F061ED4B99200439D0B /* DigitalSportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F051ED4B99200439D0B /* DigitalSportsViewController.swift */; };
+		CF290F081ED4B99900439D0B /* FSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F071ED4B99900439D0B /* FSViewController.swift */; };
+		CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F091ED4B99F00439D0B /* WSViewController.swift */; };
+		CF290F0C1ED4B9A500439D0B /* SSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0B1ED4B9A500439D0B /* SSViewController.swift */; };
+		CF290F0E1ED4B9B300439D0B /* TitleIXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */; };
+		CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */; };
+		CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F111ED4B9C300439D0B /* CLSViewController.swift */; };
+		CF290F141ED4B9CE00439D0B /* WoFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F131ED4B9CE00439D0B /* WoFViewController.swift */; };
+		CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F171ED4B9E000439D0B /* CIViewController.swift */; };
+		CF290F1B1ED4BA4100439D0B /* ActivitesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F1A1ED4BA4100439D0B /* ActivitesViewController.swift */; };
+		CF290F1D1ED4BA6200439D0B /* BSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F1C1ED4BA6200439D0B /* BSViewController.swift */; };
+		CF290F1F1ED4BA6B00439D0B /* LBRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F1E1ED4BA6B00439D0B /* LBRViewController.swift */; };
+		CF290F211ED4BA7200439D0B /* LDSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F201ED4BA7200439D0B /* LDSViewController.swift */; };
+		CF290F231ED4BA7900439D0B /* SHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F221ED4BA7900439D0B /* SHViewController.swift */; };
+		CF290F261ED4BADD00439D0B /* OSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F251ED4BADD00439D0B /* OSViewController.swift */; };
+		CF290F281ED4BAE500439D0B /* CCRFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F271ED4BAE500439D0B /* CCRFViewController.swift */; };
+		CF290F2A1ED4BAED00439D0B /* 9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F291ED4BAED00439D0B /* 9ViewController.swift */; };
+		CF290F2D1ED4BB2900439D0B /* HSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */; };
+		CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */; };
+		CF290F311ED4BB3900439D0B /* AIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F301ED4BB3900439D0B /* AIViewController.swift */; };
+		CF290F331ED4BB4000439D0B /* RIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F321ED4BB4000439D0B /* RIViewController.swift */; };
+		CF290F351ED4BB4A00439D0B /* EP-uIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */; };
+		CF290F391ED4BB7000439D0B /* SchoolStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F381ED4BB7000439D0B /* SchoolStoreViewController.swift */; };
+		CF290F3B1ED4BB7C00439D0B /* MySchoolAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3A1ED4BB7C00439D0B /* MySchoolAccountViewController.swift */; };
+		CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */; };
+		CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */; };
+		CF290F411ED4BB9900439D0B /* OWPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F401ED4BB9900439D0B /* OWPViewController.swift */; };
+		CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */; };
+		CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */; };
+		CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C51ED8D4AD00749B68 /* Item.swift */; };
+		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
+		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
+		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
 		CFE1F8871EAD92C20026061C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8861EAD92C20026061C /* AppDelegate.swift */; };
 		CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88A1EAD92C20026061C /* Main.storyboard */; };
 		CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F88D1EAD92C20026061C /* Assets.xcassets */; };
@@ -23,6 +84,7 @@
 		CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */; };
 		CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */; };
 		CFE1F8D11EB021B00026061C /* ParentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */; };
+		CFE1F8D31EB021C20026061C /* StudentPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +105,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CF2846471EB3E74D00CC02F4 /* StudentPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPortalViewController.swift; sourceTree = "<group>"; };
+		1202CE881ED7D6DC0042F8A7 /* ABS2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABS2ViewController.swift; sourceTree = "<group>"; };
+		1202CE8A1ED7E07F0042F8A7 /* LALSCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LALSCViewController.swift; sourceTree = "<group>"; };
+		1202CE8E1ED88D620042F8A7 /* BdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BdayViewController.swift; sourceTree = "<group>"; };
+		1202CE901ED88F9B0042F8A7 /* CdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CdayViewController.swift; sourceTree = "<group>"; };
+		1202CE921ED890330042F8A7 /* DdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DdayViewController.swift; sourceTree = "<group>"; };
+		1202CE941ED8BC680042F8A7 /* eBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eBoardViewController.swift; sourceTree = "<group>"; };
+		12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavianceViewController.swift; sourceTree = "<group>"; };
+		126710661EC4EA1B00CCC28E /* LLAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAViewController.swift; sourceTree = "<group>"; };
+		1267106A1EC5378F00CCC28E /* ZenithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenithViewController.swift; sourceTree = "<group>"; };
+		12EA84441ED7B9190063F8C4 /* ABSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSViewController.swift; sourceTree = "<group>"; };
+		CF290ED41ED337CC00439D0B /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CF290EDD1ED4B74700439D0B /* PWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWViewController.swift; sourceTree = "<group>"; };
+		CF290EDF1ED4B7BD00439D0B /* F&SViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "F&SViewController.swift"; sourceTree = "<group>"; };
+		CF290EE11ED4B7D200439D0B /* H&AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "H&AViewController.swift"; sourceTree = "<group>"; };
+		CF290EE31ED4B7E900439D0B /* HisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HisViewController.swift; sourceTree = "<group>"; };
+		CF290EE51ED4B80800439D0B /* MeetHHSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetHHSViewController.swift; sourceTree = "<group>"; };
+		CF290EE71ED4B86F00439D0B /* C&SDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "C&SDViewController.swift"; sourceTree = "<group>"; };
+		CF290EE91ED4B88100439D0B /* SPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPViewController.swift; sourceTree = "<group>"; };
+		CF290EEB1ED4B88800439D0B /* CalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
+		CF290EEE1ED4B8BC00439D0B /* IBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBViewController.swift; sourceTree = "<group>"; };
+		CF290EF01ED4B8DF00439D0B /* PGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGViewController.swift; sourceTree = "<group>"; };
+		CF290EF21ED4B8E700439D0B /* POWERViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POWERViewController.swift; sourceTree = "<group>"; };
+		CF290EF41ED4B8EF00439D0B /* PSUViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSUViewController.swift; sourceTree = "<group>"; };
+		CF290EF81ED4B91000439D0B /* SummerProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerProViewController.swift; sourceTree = "<group>"; };
+		CF290EFA1ED4B91F00439D0B /* SummerReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummerReadViewController.swift; sourceTree = "<group>"; };
+		CF290EFC1ED4B92700439D0B /* ICViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICViewController.swift; sourceTree = "<group>"; };
+		CF290EFE1ED4B92F00439D0B /* KeystoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoneViewController.swift; sourceTree = "<group>"; };
+		CF290F001ED4B93700439D0B /* ROViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROViewController.swift; sourceTree = "<group>"; };
+		CF290F031ED4B97900439D0B /* ACViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACViewController.swift; sourceTree = "<group>"; };
+		CF290F051ED4B99200439D0B /* DigitalSportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalSportsViewController.swift; sourceTree = "<group>"; };
+		CF290F071ED4B99900439D0B /* FSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSViewController.swift; sourceTree = "<group>"; };
+		CF290F091ED4B99F00439D0B /* WSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSViewController.swift; sourceTree = "<group>"; };
+		CF290F0B1ED4B9A500439D0B /* SSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSViewController.swift; sourceTree = "<group>"; };
+		CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleIXViewController.swift; sourceTree = "<group>"; };
+		CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P&CPViewController.swift"; sourceTree = "<group>"; };
+		CF290F111ED4B9C300439D0B /* CLSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLSViewController.swift; sourceTree = "<group>"; };
+		CF290F131ED4B9CE00439D0B /* WoFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoFViewController.swift; sourceTree = "<group>"; };
+		CF290F171ED4B9E000439D0B /* CIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIViewController.swift; sourceTree = "<group>"; };
+		CF290F1A1ED4BA4100439D0B /* ActivitesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitesViewController.swift; sourceTree = "<group>"; };
+		CF290F1C1ED4BA6200439D0B /* BSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSViewController.swift; sourceTree = "<group>"; };
+		CF290F1E1ED4BA6B00439D0B /* LBRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBRViewController.swift; sourceTree = "<group>"; };
+		CF290F201ED4BA7200439D0B /* LDSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDSViewController.swift; sourceTree = "<group>"; };
+		CF290F221ED4BA7900439D0B /* SHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHViewController.swift; sourceTree = "<group>"; };
+		CF290F251ED4BADD00439D0B /* OSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSViewController.swift; sourceTree = "<group>"; };
+		CF290F271ED4BAE500439D0B /* CCRFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCRFViewController.swift; sourceTree = "<group>"; };
+		CF290F291ED4BAED00439D0B /* 9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 9ViewController.swift; sourceTree = "<group>"; };
+		CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAViewController.swift; sourceTree = "<group>"; };
+		CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAStoreViewController.swift; sourceTree = "<group>"; };
+		CF290F301ED4BB3900439D0B /* AIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIViewController.swift; sourceTree = "<group>"; };
+		CF290F321ED4BB4000439D0B /* RIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIViewController.swift; sourceTree = "<group>"; };
+		CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EP-uIViewController.swift"; sourceTree = "<group>"; };
+		CF290F381ED4BB7000439D0B /* SchoolStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolStoreViewController.swift; sourceTree = "<group>"; };
+		CF290F3A1ED4BB7C00439D0B /* MySchoolAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySchoolAccountViewController.swift; sourceTree = "<group>"; };
+		CF290F3C1ED4BB8400439D0B /* WDIAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDIAViewController.swift; sourceTree = "<group>"; };
+		CF290F3E1ED4BB9000439D0B /* PUSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUSViewController.swift; sourceTree = "<group>"; };
+		CF290F401ED4BB9900439D0B /* OWPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWPViewController.swift; sourceTree = "<group>"; };
+		CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CF4261C51ED8D4AD00749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
+		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
+		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
 		CFE1F8831EAD92C20026061C /* HarritonMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarritonMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F8861EAD92C20026061C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE1F88B1EAD92C20026061C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +190,7 @@
 		CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusLifeViewController.swift; sourceTree = "<group>"; };
 		CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolCounselingViewController.swift; sourceTree = "<group>"; };
 		CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentInfoViewController.swift; sourceTree = "<group>"; };
+		CFE1F8D21EB021C20026061C /* StudentPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPortalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,14 +396,6 @@
 				CF290EDA1ED4A6A800439D0B /* SideMenu */,
 				CF290ED41ED337CC00439D0B /* InfoViewController.swift */,
 				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
-				CFE1F8C21EADBD280026061C /* AboutHarritonViewController.swift */,
-				CFE1F8C61EB0213E0026061C /* AcademicsViewController.swift */,
-				CFE1F8C81EB021540026061C /* ArtsViewController.swift */,
-				CFE1F8CA1EB0216D0026061C /* AthleticsViewController.swift */,
-				CFE1F8CC1EB021850026061C /* CampusLifeViewController.swift */,
-				CFE1F8CE1EB0219C0026061C /* SchoolCounselingViewController.swift */,
-				CFE1F8D01EB021B00026061C /* ParentInfoViewController.swift */,
-				CF2846471EB3E74D00CC02F4 /* StudentPortalViewController.swift */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
 				CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */,
@@ -447,8 +563,24 @@
 				1202CE951ED8BC680042F8A7 /* eBoardViewController.swift in Sources */,
 				CF290EF91ED4B91000439D0B /* SummerProViewController.swift in Sources */,
 				CFE1F8B91EAD944F0026061C /* ViewController.swift in Sources */,
+				CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */,
+				CF290EFF1ED4B92F00439D0B /* KeystoneViewController.swift in Sources */,
+				CF290EFD1ED4B92700439D0B /* ICViewController.swift in Sources */,
+				CF290EFB1ED4B91F00439D0B /* SummerReadViewController.swift in Sources */,
+				CF290F0E1ED4B9B300439D0B /* TitleIXViewController.swift in Sources */,
+				CF290F351ED4BB4A00439D0B /* EP-uIViewController.swift in Sources */,
+				CF290F331ED4BB4000439D0B /* RIViewController.swift in Sources */,
+				CF290EEC1ED4B88800439D0B /* CalViewController.swift in Sources */,
+				CFE1F8D31EB021C20026061C /* StudentPortalViewController.swift in Sources */,
+				CF290EDE1ED4B74700439D0B /* PWViewController.swift in Sources */,
+				CF290EE41ED4B7E900439D0B /* HisViewController.swift in Sources */,
+				CF290F2A1ED4BAED00439D0B /* 9ViewController.swift in Sources */,
+				CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */,
+				CF290EE81ED4B86F00439D0B /* C&SDViewController.swift in Sources */,
+				CF290F3F1ED4BB9000439D0B /* PUSViewController.swift in Sources */,
 				CFE1F8CF1EB0219C0026061C /* SchoolCounselingViewController.swift in Sources */,
-				CF2846481EB3E74D00CC02F4 /* StudentPortalViewController.swift in Sources */,
+				CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */,
+				CF290F281ED4BAE500439D0B /* CCRFViewController.swift in Sources */,
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
 				CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */,
 				126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */,
