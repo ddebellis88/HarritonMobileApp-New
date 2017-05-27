@@ -1270,8 +1270,15 @@ Principal</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="• Parser displays some XML class info, seems to be an issue with the Harriton site, not our code." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fJ7-bL-UM3">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="* Parser displays some XML class info, seems to be an issue with the Harriton site, not our code. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fJ7-bL-UM3">
                                 <rect key="frame" x="67" y="167" width="240" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="* Add sport announcements? " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pMo-KT-0Vm">
+                                <rect key="frame" x="67" y="236" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
