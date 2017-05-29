@@ -6987,7 +6987,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="249"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HHS Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NYM-qo-b1X">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NYM-qo-b1X">
                                             <rect key="frame" x="8" y="60" width="130" height="130"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="130" id="c68-wP-Ts2"/>
@@ -6995,7 +6995,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title !!! Title !!! Title !!! Title !!! Title !!! Title !!! Title !!! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzW-Bc-bS6">
-                                            <rect key="frame" x="146" y="-35" width="213" height="58"/>
+                                            <rect key="frame" x="146" y="-35" width="213" height="57.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -7007,7 +7007,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text texttext texttext texttext texttext texttext text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2N-dD-4E6">
-                                            <rect key="frame" x="146" y="31" width="213" height="34"/>
+                                            <rect key="frame" x="146" y="30.5" width="213" height="33.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -7039,6 +7039,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
                                     <outlet property="desc" destination="X2N-dD-4E6" id="Unc-of-WU9"/>
                                     <outlet property="link" destination="vx1-p3-sOb" id="JS9-as-xpT"/>
                                     <outlet property="title" destination="QzW-Bc-bS6" id="nF1-Qr-3bt"/>
+                                    <outlet property="url" destination="NYM-qo-b1X" id="I30-Ue-ZpC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -7050,7 +7051,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="Fje-uU-XcT"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="Fje-uU-XcT" id="ezk-mb-cUC"/>
+                        <outlet property="menuButton" destination="Fje-uU-XcT" id="bnl-YW-BXQ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W32-Px-UzD" userLabel="First Responder" sceneMemberID="firstResponder"/>
