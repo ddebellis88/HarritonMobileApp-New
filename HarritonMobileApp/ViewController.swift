@@ -13,12 +13,37 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var infoButton: UIBarButtonItem!
+    
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    var timer: Timer!
+    var updateCounter : Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         sideMenus()
         customizeNavBar()
+        
+        updateCounter = 0
+        
+        timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.updateTimer), userInfo: nil, repeats: true)
         // Do any additional setup after loading the view.
+    }
+    
+    internal func updateTimer()
+    {
+        if(updateCounter <= 3)
+        {
+            pageControl.currentPage = updateCounter
+            imgView.image = UIImage(named: String(updateCounter+1) + ".png")
+            updateCounter = updateCounter + 1
+        }
+        else
+        {
+            updateCounter = 0
+        }
     }
 
     override func didReceiveMemoryWarning() {

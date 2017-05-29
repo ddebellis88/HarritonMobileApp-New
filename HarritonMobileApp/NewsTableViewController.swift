@@ -80,6 +80,7 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
     
     
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
+        
     }
     
     func parser(_ parser: XMLParser, foundCharacters string: String) {

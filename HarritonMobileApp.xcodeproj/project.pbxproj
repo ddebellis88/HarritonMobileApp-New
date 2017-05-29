@@ -67,6 +67,10 @@
 		CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */; };
 		CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */; };
 		CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C51ED8D4AD00749B68 /* Item.swift */; };
+		CF4261D71EDC7B8900749B68 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261D61EDC7B8900749B68 /* 1.png */; };
+		CF4261D91EDC7BED00749B68 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261D81EDC7BED00749B68 /* 2.png */; };
+		CF4261DB1EDC7C0000749B68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DA1EDC7C0000749B68 /* 3.png */; };
+		CF4261DD1EDC7C1500749B68 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DC1EDC7C1500749B68 /* 4.png */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
 		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
 		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
@@ -166,6 +170,10 @@
 		CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		CF4261C51ED8D4AD00749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CF4261D61EDC7B8900749B68 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CF4261D81EDC7BED00749B68 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CF4261DA1EDC7C0000749B68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CF4261DC1EDC7C1500749B68 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
 		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
 		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
@@ -369,6 +377,17 @@
 			name = NewsCenterClasses;
 			sourceTree = "<group>";
 		};
+		CF4261D11EDC761500749B68 /* FrontPagePics */ = {
+			isa = PBXGroup;
+			children = (
+				CF4261D61EDC7B8900749B68 /* 1.png */,
+				CF4261D81EDC7BED00749B68 /* 2.png */,
+				CF4261DA1EDC7C0000749B68 /* 3.png */,
+				CF4261DC1EDC7C1500749B68 /* 4.png */,
+			);
+			name = FrontPagePics;
+			sourceTree = "<group>";
+		};
 		CFE1F87A1EAD92C20026061C = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +418,7 @@
 				CF290EDA1ED4A6A800439D0B /* SideMenu */,
 				CF290ED41ED337CC00439D0B /* InfoViewController.swift */,
 				CFE1F8B81EAD944F0026061C /* ViewController.swift */,
+				CF4261D11EDC761500749B68 /* FrontPagePics */,
 				CFE1F8B51EAD93190026061C /* SWRevealViewController.m */,
 				CFE1F8B61EAD93190026061C /* SWRevealViewController.h */,
 				CFE1F8B41EAD93190026061C /* HarritonMobileApp-Bridging-Header.h */,
@@ -534,6 +554,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F8911EAD92C20026061C /* LaunchScreen.storyboard in Resources */,
+				CF4261DD1EDC7C1500749B68 /* 4.png in Resources */,
+				CF4261D71EDC7B8900749B68 /* 1.png in Resources */,
+				CF4261D91EDC7BED00749B68 /* 2.png in Resources */,
+				CF4261DB1EDC7C0000749B68 /* 3.png in Resources */,
 				CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */,
 				CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */,
 			);
