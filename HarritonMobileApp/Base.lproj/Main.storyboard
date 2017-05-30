@@ -281,7 +281,7 @@
         <scene sceneID="75w-vQ-vxW">
             <objects>
                 <navigationController id="WY1-Kc-sC4" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gmt-cp-UO7">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gmt-cp-UO7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -860,7 +860,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
         <scene sceneID="eTi-o3-yEH">
             <objects>
                 <navigationController id="uZ9-iu-zGf" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="FjO-dI-9W2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FjO-dI-9W2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -920,7 +920,7 @@ Please note that we will respond as quickly as possible, but may need a day or t
         <scene sceneID="2JA-At-7a2">
             <objects>
                 <navigationController id="dbb-OZ-vs1" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ecO-1d-o24">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecO-1d-o24">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1012,7 +1012,7 @@ Phone: (610) 645-1955</string>
         <scene sceneID="c7J-QS-OSo">
             <objects>
                 <navigationController id="Fev-Hf-7Q1" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="d50-mi-J6W">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d50-mi-J6W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1076,7 +1076,7 @@ Harriton provides comprehensive programs and services for students with special 
         <scene sceneID="thV-RT-tNR">
             <objects>
                 <navigationController id="Fvm-m7-Jki" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="B6x-VG-snl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B6x-VG-snl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1175,7 +1175,7 @@ Since opening in 1958, Harriton has been known for its vibrant, participatory sp
         <scene sceneID="Vmk-iv-70e">
             <objects>
                 <navigationController id="yRU-yw-gfH" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0IQ-tz-iYV">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0IQ-tz-iYV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1260,15 +1260,19 @@ Principal</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cTJ-hZ-B1W">
-                                <rect key="frame" x="16" y="142" width="343" height="460"/>
+                                <rect key="frame" x="16" y="198" width="343" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Zww-hr-28e">
-                                <rect key="frame" x="112" y="610" width="150" height="37"/>
+                                <rect key="frame" x="112" y="476" width="150" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-3" translatesAutoresizingMaskIntoConstraints="NO" id="AzC-Ia-Z1f">
+                                <rect key="frame" x="16" y="198" width="343" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1295,7 +1299,7 @@ Principal</string>
         <scene sceneID="n1a-ws-9y1">
             <objects>
                 <navigationController id="k7I-Fs-9AP" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="o5g-CC-4sQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o5g-CC-4sQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -2165,7 +2169,7 @@ Available courses encompass studio art, art history, art and modern culture, met
         <scene sceneID="KO0-TT-aDJ">
             <objects>
                 <navigationController id="vcy-fG-s4F" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="aqJ-22-mdM">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aqJ-22-mdM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -2846,7 +2850,7 @@ She is also a member of the National Association of College Admissions Counselor
         <scene sceneID="d4F-ep-N6X">
             <objects>
                 <navigationController id="iVa-Fx-Xj2" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="2Yq-uP-pfW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Yq-uP-pfW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -3302,7 +3306,7 @@ Bonnie Rosen (1988) - Gold-medal lacrosse star for US National Team; Temple wome
         <scene sceneID="Gdu-Ox-w5K">
             <objects>
                 <navigationController id="oK7-PK-C1K" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ODU-k9-6BP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ODU-k9-6BP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -3544,7 +3548,7 @@ School Closing Number: 302</string>
         <scene sceneID="QJv-ZQ-ftZ">
             <objects>
                 <navigationController id="9U8-BK-06C" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="w7P-gj-J2h">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="w7P-gj-J2h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -3650,7 +3654,7 @@ School Closing Number: 302</string>
         <scene sceneID="0tw-SU-1m3">
             <objects>
                 <navigationController id="k52-56-Ifa" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="m9t-5K-hc2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m9t-5K-hc2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -3948,7 +3952,7 @@ Harriton High School
         <scene sceneID="y0M-Eg-sIM">
             <objects>
                 <navigationController id="bCK-Sm-Vjg" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="uor-HN-X59">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uor-HN-X59">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -4009,7 +4013,7 @@ Harriton High School provides equal educational opportunities for all children r
         <scene sceneID="fHt-sI-qXj">
             <objects>
                 <navigationController id="nVT-uy-DwG" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="GDL-Jb-GxS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GDL-Jb-GxS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -4085,7 +4089,7 @@ Rosemont, PA 19010</string>
         <scene sceneID="t9T-l2-CgW">
             <objects>
                 <navigationController id="uSs-53-xWp" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="YpZ-w0-yJQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YpZ-w0-yJQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5077,7 +5081,7 @@ Phone: (610) 645-1955</string>
         <scene sceneID="uy3-zw-gvt">
             <objects>
                 <navigationController id="x25-CQ-OWl" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="9eU-xr-E1r">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9eU-xr-E1r">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5339,7 +5343,7 @@ Mike Fanning	1952-1955</string>
         <scene sceneID="co9-Hn-oi9">
             <objects>
                 <navigationController id="KEC-Xg-usc" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="oi6-mn-Oph">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oi6-mn-Oph">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5723,7 +5727,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
         <scene sceneID="5ro-qU-eTz">
             <objects>
                 <navigationController id="yW1-fs-V7K" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Ipn-n5-O8J">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ipn-n5-O8J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5931,7 +5935,7 @@ Superintendent of Schools</string>
         <scene sceneID="1Xu-vh-oqf">
             <objects>
                 <navigationController id="nmG-kx-kR9" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="YSb-Y7-E1f">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YSb-Y7-E1f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -5983,7 +5987,7 @@ Superintendent of Schools</string>
         <scene sceneID="Jb0-dX-Tvt">
             <objects>
                 <navigationController id="s6W-cx-Pbm" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Dwz-C8-42E">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dwz-C8-42E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -6192,7 +6196,7 @@ How to Get Working Papers
         <scene sceneID="Z4n-oC-iQR">
             <objects>
                 <navigationController id="Ygb-H5-trG" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Cfy-2w-YcE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cfy-2w-YcE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -7073,6 +7077,7 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
         <image name="LunchandLearn_staff" width="500" height="500"/>
         <image name="SpecialSchedules" width="500" height="500"/>
         <image name="Unchecked Circle Filled-25" width="25" height="25"/>
+        <image name="Untitled-3" width="2000" height="2000"/>
         <image name="blackboard_learn" width="500" height="500"/>
         <image name="earlydiss" width="697" height="263"/>
         <image name="harritonheader2" width="500" height="500"/>

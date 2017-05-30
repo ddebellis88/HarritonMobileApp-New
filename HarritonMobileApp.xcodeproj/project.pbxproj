@@ -17,6 +17,8 @@
 		12305D9E1ED6778B00CE0102 /* NavianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */; };
 		126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710661EC4EA1B00CCC28E /* LLAViewController.swift */; };
 		1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267106A1EC5378F00CCC28E /* ZenithViewController.swift */; };
+		126E71D01EDCF47100463F92 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 126E71CF1EDCF47100463F92 /* 1.png */; };
+		126E71D21EDCF58B00463F92 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 126E71D11EDCF58B00463F92 /* 2.png */; };
 		12EA84451ED7B9190063F8C4 /* ABSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA84441ED7B9190063F8C4 /* ABSViewController.swift */; };
 		CF290ED51ED337CC00439D0B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290ED41ED337CC00439D0B /* InfoViewController.swift */; };
 		CF290EDE1ED4B74700439D0B /* PWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EDD1ED4B74700439D0B /* PWViewController.swift */; };
@@ -67,8 +69,6 @@
 		CF4261C31ED8D49E00749B68 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */; };
 		CF4261C61ED8D4AD00749B68 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */; };
 		CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C51ED8D4AD00749B68 /* Item.swift */; };
-		CF4261D71EDC7B8900749B68 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261D61EDC7B8900749B68 /* 1.png */; };
-		CF4261D91EDC7BED00749B68 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261D81EDC7BED00749B68 /* 2.png */; };
 		CF4261DB1EDC7C0000749B68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DA1EDC7C0000749B68 /* 3.png */; };
 		CF4261DD1EDC7C1500749B68 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DC1EDC7C1500749B68 /* 4.png */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
@@ -120,6 +120,8 @@
 		12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavianceViewController.swift; sourceTree = "<group>"; };
 		126710661EC4EA1B00CCC28E /* LLAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAViewController.swift; sourceTree = "<group>"; };
 		1267106A1EC5378F00CCC28E /* ZenithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenithViewController.swift; sourceTree = "<group>"; };
+		126E71CF1EDCF47100463F92 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../1.png; sourceTree = "<group>"; };
+		126E71D11EDCF58B00463F92 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../2.png; sourceTree = "<group>"; };
 		12EA84441ED7B9190063F8C4 /* ABSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSViewController.swift; sourceTree = "<group>"; };
 		CF290ED41ED337CC00439D0B /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		CF290EDD1ED4B74700439D0B /* PWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWViewController.swift; sourceTree = "<group>"; };
@@ -170,8 +172,6 @@
 		CF4261C21ED8D49E00749B68 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		CF4261C41ED8D4AD00749B68 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		CF4261C51ED8D4AD00749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		CF4261D61EDC7B8900749B68 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		CF4261D81EDC7BED00749B68 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		CF4261DA1EDC7C0000749B68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		CF4261DC1EDC7C1500749B68 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
@@ -380,8 +380,8 @@
 		CF4261D11EDC761500749B68 /* FrontPagePics */ = {
 			isa = PBXGroup;
 			children = (
-				CF4261D61EDC7B8900749B68 /* 1.png */,
-				CF4261D81EDC7BED00749B68 /* 2.png */,
+				126E71CF1EDCF47100463F92 /* 1.png */,
+				126E71D11EDCF58B00463F92 /* 2.png */,
 				CF4261DA1EDC7C0000749B68 /* 3.png */,
 				CF4261DC1EDC7C1500749B68 /* 4.png */,
 			);
@@ -554,9 +554,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F8911EAD92C20026061C /* LaunchScreen.storyboard in Resources */,
+				126E71D01EDCF47100463F92 /* 1.png in Resources */,
+				126E71D21EDCF58B00463F92 /* 2.png in Resources */,
 				CF4261DD1EDC7C1500749B68 /* 4.png in Resources */,
-				CF4261D71EDC7B8900749B68 /* 1.png in Resources */,
-				CF4261D91EDC7BED00749B68 /* 2.png in Resources */,
 				CF4261DB1EDC7C0000749B68 /* 3.png in Resources */,
 				CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */,
 				CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */,
