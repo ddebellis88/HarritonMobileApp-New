@@ -17,31 +17,34 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
         var desc = "";
         var link = "";
         var date = "";
+        var url = "";
     }
+    
+    var placeholder = "http://www.lmsd.org/uploaded/photos/headers/hhs_logo.png";
     
     var items = [Item]()
     var item = Item()
     
     var foundCharacters = "";
     var parser = XMLParser()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchArticle()
         customizeNavBar()
         sideMenus()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-// MARK: - Table view data source
-
+    
+    // MARK: - Table view data source
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -62,14 +65,15 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
         cell.desc.text = item.desc
         cell.link.text = item.link
         cell.date.text = item.date
+        cell.url.downloadImage(from: (self.items[indexPath.row].url))
         
         return cell
     }
     
-// MARK: - XML Paser
+    // MARK: - XML Paser
     
     func fetchArticle() {
-        let xmlData:String="https://www.lmsd.org/rss.cfm?news=40"
+        let xmlData:String="http://www.lmsd.org/rss.cfm?news=40"
         let urlToSend: URL = URL(string: xmlData)!
         parser = XMLParser(contentsOf: urlToSend)!
         
@@ -80,6 +84,15 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
     
     
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String]) {
+        
+        if elementName == "enclosure" {
+            if let url = attributeDict["url"] {
+                item.url = url;
+            }
+        }
+        else {
+            item.url = placeholder;
+        }
     }
     
     func parser(_ parser: XMLParser, foundCharacters string: String) {
@@ -110,19 +123,33 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
             tempItem.desc = self.item.desc;
             tempItem.link = self.item.link;
             tempItem.date = self.item.date;
+            tempItem.url = self.item.url;
             self.items.append(tempItem);
-           // self.item.enc.removeAll();
         }
         self.foundCharacters = ""
     }
+    
+//MARK: - Parser Printer In Console
     
 //    func parserDidEndDocument(_ parser: XMLParser) {
 //        for item in self.items {
 //            print("\(item.title)\n\(item.desc)");
 //            print("\(item.link)\n\(item.date)");
-//            print("\n")
+//            print("\n");
 //        }
 //    }
+    
+//MARK: - Side Menu Bar
+    func sideMenus() {
+        if revealViewController() != nil {
+            menuButton.target = revealViewController()
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            revealViewController().rearViewRevealWidth = 275
+            revealViewController().rightViewRevealWidth = 160
+            
+            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
+    }
     
 // MARK: - Custom NavBar
     
@@ -133,36 +160,27 @@ class NewsTableViewController: UITableViewController, XMLParserDelegate {
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
     
-// MARK: - SideMenu NavBar
-    
-    func sideMenus() {
-        if revealViewController() != nil {
-            menuButton.target = revealViewController()
-            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
-            revealViewController().rearViewRevealWidth = 275
-            revealViewController().rightViewRevealWidth = 160
-            
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
-        
-    }
 }
 
 //Mark: - Image Puller
 
-//extension UIImageView {
-//
-//    func downloadImage(from url: String){
-//
-//        let urlRequest = URLRequest(url: URL(string: url)!)
-//
-//        let task = URLSession.shared.dataTask(with: urlRequest) { (data,response,error) in
-//
-//
-//            DispatchQueue.main.async {
-//                self.image = UIImage(data: data!)
-//            }
-//        }
-//        task.resume()
-//    }
-//}
+extension UIImageView {
+    
+    func downloadImage(from item: String){
+        
+        let xmlData = URLRequest(url: URL(string: item)!)
+        
+        let task = URLSession.shared.dataTask(with: xmlData) { (data,response,error) in
+            
+            if (error != nil) {
+                print("error...")
+                return
+            }
+            DispatchQueue.main.async {
+                self.image = UIImage(data: data!)
+            }
+        }
+        task.resume()
+    }
+}
+

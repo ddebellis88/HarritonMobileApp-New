@@ -12,6 +12,7 @@ class NewsTableViewCell: UITableViewCell {
 
     //MARK: Properties
 
+    @IBOutlet weak var url: UIImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var desc: UILabel!
