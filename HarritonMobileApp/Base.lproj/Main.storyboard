@@ -1738,15 +1738,15 @@ Principal</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Calendars still big ?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="stg-4J-vJ1">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Calendars is a feature comeing soon..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="stg-4J-vJ1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Letter Day Schedule" id="Ycp-1N-eeL">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="s7Y-v9-yGh">
@@ -1761,7 +1761,7 @@ Principal</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="85G-r2-tun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15542" y="-2096"/>
+            <point key="canvasLocation" x="15541.6" y="-2096.4017991004498"/>
         </scene>
         <!--Student Handbook-->
         <scene sceneID="e2Z-sn-nlW">
@@ -2769,15 +2769,12 @@ She is also a member of the National Association of College Admissions Counselor
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="?? http://www.lmsd.org/harritonhs/campus-life/bell    ??" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cVk-aM-TYP">
-                                <rect key="frame" x="16" y="269" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bell Schedule" translatesAutoresizingMaskIntoConstraints="NO" id="Dy3-bk-Vm6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bell Schedule" id="YXL-0N-N5P">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="VGs-1H-koL">
@@ -2792,7 +2789,7 @@ She is also a member of the National Association of College Admissions Counselor
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaT-zm-QEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15542" y="-3415"/>
+            <point key="canvasLocation" x="15541.6" y="-3415.1424287856075"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nww-sg-RtJ">
@@ -3381,7 +3378,7 @@ Harriton High School has twice been recognized for its excellence as a "Blue Rib
         <!--Meet the HHS Team-->
         <scene sceneID="bh6-2S-jAg">
             <objects>
-                <viewController id="3mr-zC-8E1" sceneMemberID="viewController">
+                <viewController id="3mr-zC-8E1" customClass="MeetHHSViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SBj-h1-zAo"/>
                         <viewControllerLayoutGuide type="bottom" id="ZeG-yg-YrH"/>
@@ -3518,14 +3515,16 @@ Mr. Scott Weinstein, Principal
 
 Phone: 610-658-3950
 Absentee, Lateness &amp; Safe Arrival Hotline: 610-658-3960
-School Closing Number: 302</string>
+School Closing Number: 302
+
+
+
+
+
+Map feature coming soon...</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Kff-Zt-yCW">
-                                <rect key="frame" x="67" y="312" width="240" height="294"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -3625,15 +3624,15 @@ School Closing Number: 302</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Ummmmmmm.... HOW DO WE DO A CALENDAR" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oJM-sI-zUp">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Calendars is a feature comeing soon..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oJM-sI-zUp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Calendar" id="rID-hw-iHX">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="6q0-tl-DkB">
@@ -3648,7 +3647,7 @@ School Closing Number: 302</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZL-nA-vZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10158" y="-6967"/>
+            <point key="canvasLocation" x="10157.6" y="-6967.4662668665669"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0tw-SU-1m3">
@@ -4250,9 +4249,8 @@ If you have questions regarding summer school, please contact the Summer School 
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="backButtob" destination="Dfk-dd-exi" id="Gda-3J-yjx"/>
                         <outlet property="backButton" destination="Dfk-dd-exi" id="hTu-R8-y0Z"/>
-                        <outlet property="webView" destination="4Yr-jr-DsB" id="Uxk-Oz-dO8"/>
+                        <outlet property="webView" destination="4Yr-jr-DsB" id="eFy-GP-WQl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4O-5n-SdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4470,15 +4468,15 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="CALENDAR IS STILL A BIG ?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1W2-e8-Fk7">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Calendars is a feature comeing soon..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1W2-e8-Fk7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Athletics Calendar" id="oWw-ZI-55F">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="s15-Ct-i8d">
@@ -4493,7 +4491,7 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0hD-QS-t7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26750" y="-4158"/>
+            <point key="canvasLocation" x="26749.599999999999" y="-4158.1709145427294"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="7C0-A1-wdb">
@@ -4652,29 +4650,8 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                                             <segue destination="Zuq-dJ-3we" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="YW8-v7-ZZX"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="T48-gS-v42" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T48-gS-v42" id="9Gj-et-tYf" userLabel="cell">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parent &amp; Coach Protocal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2O-Vb-6nb">
-                                                    <rect key="frame" x="30" y="11" width="187" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="yaY-75-QvW" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="5w9-Iw-Vb9"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="76t-DH-iae" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="76t-DH-iae" id="0wJ-iV-yVk" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -4695,7 +4672,7 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="s6F-k3-vEu" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s6F-k3-vEu" id="wAe-f8-wpg" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -4716,7 +4693,7 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Fm5-2N-Rq5" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fm5-2N-Rq5" id="9Vu-XI-Wjl" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -4737,7 +4714,7 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ahi-NG-owR" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="484" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ahi-NG-owR" id="W6e-y5-wlN" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -4839,26 +4816,12 @@ To view more information regarding the Keystone Exams, please visit the Pennsylv
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Uy-TF-Ljq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fall Sports" translatesAutoresizingMaskIntoConstraints="NO" id="3dK-OI-kE6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Fall Sports Teams	Varsity Head Coach	Email Address
-Cheerleading	Rachel Appelbaum	appelbr@lmsd.org
-Cross Country (Boys)	Larissa Binkley	binklel@lmsd.org
-Cross Country (Girls)	Larissa Binkley	binklel@lmsd.org
-Field Hockey	Cassandra Prentis	Prentic@lmsd.org
-Football	Justin Mellor	mellorj@lmsd.org
-Golf	Brian Dobak	DobakB@lmsd.org
-Soccer (Boys)	Biff Sturla	sturlab@lmsd.org
-Soccer (Girls)	Jeff Rhodes	rhodesj@lmsd.org
-Tennis (Girls)	David Broida	broidad@lmsd.org
-Volleyball (Girls)	Simon Telfer	telfers@lmsd.org</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Fall Sports" id="tgb-ju-DFi">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="wya-Fy-ahp">
@@ -4902,6 +4865,30 @@ Volleyball (Girls)	Simon Telfer	telfers@lmsd.org</string>
                     <view key="view" contentMode="scaleToFill" id="MWi-uk-IGT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Winter Sports" translatesAutoresizingMaskIntoConstraints="NO" id="Ssk-CB-1ay">
+                                <rect key="frame" x="0.0" y="64" width="375" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i9M-sP-4mt">
+                                <rect key="frame" x="0.0" y="231" width="375" height="436"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Squash Team Meeting and preseason clinic for all new players
+For all new and returning squash players interested in playing in the upcoming season, a meeting will be held at the HLM Squash Teams home training and match venue at The Cynwyd Club, 332 Trevor Lane, Bala Cynwyd, PA 19004 on Thursday, November 6th at 7:30pm.
+
+Please join and meet the Squash Coaches as they present an outline of the upcoming season. The coaches will be on hand to also answer any questions you may have.
+
+Also, a Pre-Season clinic will be held from November 3rd to 14th from 3pm – 4:30pm (No session November 4th due to election day) for all new players wanting to try Squash as well for players who were in the lower half of the JV teams last year. Rackets and eyewear will be made available, ALL white clothing is required to play. Transportation to and from The Cynwyd Club is the responsibility of each player (*transport is supplied by the district during the regular season).
+
+For more information, contact Alex Clark at 610-667-4524, extension 314.
+
+Wrestling
+November 17 is the First Official start of the season. Practice will be after school Monday through Friday after school from 3:00 to 5:00 and on Saturday's from 9 to 11:00 am; Highlander Gym.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Winter Sports" id="Soo-UO-p61">
@@ -4917,7 +4904,7 @@ Volleyball (Girls)	Simon Telfer	telfers@lmsd.org</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1lo-ah-2ul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26713" y="-2026"/>
+            <point key="canvasLocation" x="26712.799999999999" y="-2026.2368815592206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NE8-j2-070">
@@ -4946,6 +4933,39 @@ Volleyball (Girls)	Simon Telfer	telfers@lmsd.org</string>
                     <view key="view" contentMode="scaleToFill" id="ebm-DD-9YY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spring Sports" translatesAutoresizingMaskIntoConstraints="NO" id="0ok-q0-t9c">
+                                <rect key="frame" x="0.0" y="64" width="375" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AeU-cr-Y3z">
+                                <rect key="frame" x="0.0" y="286" width="375" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The 2017 Spring Season begins Monday, March 7, 2017. All students interested in trying out for a winter team will have a mandatory meeting held in the auditorium during Learn 2 on Thursday, March 2nd, 2017.
+
+All student-athletes must have a completed PIAA Physical Form dated on or after June 1, 2016 in order to participate on the first day of the season. Physicals can be submitted to the athletic office prior to March 7, 2017.
+
+Harriton Girls Lacrosse
+Welcome to Harriton High School Girls' Lacrosse. Girls Lacrosse tryouts will be March 6th and 7th 3-5:30 PM. Please plan on being in attendance for the Wall Ball test at 6:30 am on March 6. You MUST have your fully completed PIAA Physical in order to participate. Questions? Email Coach D at Dickg@lmsd.org
+
+Softball
+Softball tryouts with begin March 6th after school from 3:00-5:30 PM. Please come prepared with your completed physical paperwork. Check the weather, and be prepared to be either inside or outside. You should have all your equipment with you including, sneakers, cleats, gloves, bats, helmets, etc. We will be holding a mandatory softball meeting during learn 2 prior to the start of the season to check our numbers prior to the start of the season. It is important that you attend the meeting so please make arrangements to do so. The date will be announced during school. If you have any questions, please contact Shannon Kidd (kidds@lmsd.org).
+
+Boys Tennis
+Tryouts will be held March 6th-8th from 3-5pm at Harriton's tennis courts. Please note that completed physical forms are required before anyone is permitted to tryout for the team. The schedule for the season can be accessed at: harritonboystennis.teamsnap.com. If you have any questions, please feel free to contact Mr. Rhodes at rhodesj@lmsd.org.
+
+Crew
+New student-athletes who are curious about the sport of rowing and would like to join Harriton Crew should talk with Coach Hileman in Room 105 to find out about the tryout process. Please visit our website for more specific about the program: harritoncrew.com
+
+Baseball
+Welcome to Harriton High School Baseball!
+
+Practice starts March 6 after school on the baseball field. We'll go every afternoon and at least one morning on the weekend. Before then, be sure to (1) attend the all-sports meeting and complete your PIAA physical form. Please email me at KurzinS@lmsd.org with any questions.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Spring Sports" id="g5D-ln-7Nj">
@@ -4961,7 +4981,7 @@ Volleyball (Girls)	Simon Telfer	telfers@lmsd.org</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="olI-4V-tAT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26713" y="-1272"/>
+            <point key="canvasLocation" x="26712.799999999999" y="-1272.4137931034484"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="k1Y-L7-3vE">
@@ -5034,50 +5054,6 @@ Phone: (610) 645-1955</string>
             <point key="canvasLocation" x="26712.799999999999" y="-560.86956521739137"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Cdj-5U-Hgy">
-            <objects>
-                <navigationController id="yaY-75-QvW" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vz7-Dv-VM9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="RD9-p2-GtN" kind="relationship" relationship="rootViewController" id="Yuh-F1-lMp"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RPB-h4-5Ux" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="25857" y="160"/>
-        </scene>
-        <!--Parent & Coach Protocol-->
-        <scene sceneID="5ak-dL-056">
-            <objects>
-                <viewController id="RD9-p2-GtN" customClass="P_CPViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ajh-Vw-m1m"/>
-                        <viewControllerLayoutGuide type="bottom" id="8DS-yh-Ipc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TED-az-v87">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Parent &amp; Coach Protocol" id="6eo-SZ-6Ob">
-                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="Xfs-Yu-cip">
-                            <connections>
-                                <segue destination="dbb-OZ-vs1" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="opo-CA-PHA"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="backButton" destination="Xfs-Yu-cip" id="hrG-rQ-Tjb"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="A4y-CW-ono" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="26713" y="160"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="uy3-zw-gvt">
             <objects>
                 <navigationController id="x25-CQ-OWl" sceneMemberID="viewController">
@@ -5091,7 +5067,7 @@ Phone: (610) 645-1955</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhc-hX-H2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25857" y="893"/>
+            <point key="canvasLocation" x="25857" y="126"/>
         </scene>
         <!--Central League Schools-->
         <scene sceneID="fYy-s1-tRd">
@@ -5176,7 +5152,7 @@ Athletic Office 610-622-7000 x372</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDs-xH-Wl9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26712.799999999999" y="892.80359820089961"/>
+            <point key="canvasLocation" x="26713" y="126"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sFF-fh-AbC">
@@ -5192,7 +5168,7 @@ Athletic Office 610-622-7000 x372</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejU-yL-8qi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25857" y="1591"/>
+            <point key="canvasLocation" x="25857" y="824"/>
         </scene>
         <!--Wall of Fame-->
         <scene sceneID="4X5-L4-6j7">
@@ -5284,7 +5260,7 @@ Mike Fanning	1952-1955</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ctv-UM-3Wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26712.799999999999" y="1591.7541229385308"/>
+            <point key="canvasLocation" x="26713" y="825"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HxB-E1-oAa">
@@ -5300,7 +5276,7 @@ Mike Fanning	1952-1955</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="faD-Ba-fL6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25857" y="2972"/>
+            <point key="canvasLocation" x="25857" y="1558"/>
         </scene>
         <!--Concussion Information-->
         <scene sceneID="Kus-yP-avI">
@@ -5317,12 +5293,12 @@ Mike Fanning	1952-1955</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z0q-OI-pDg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Background Information: Head injuries pose a serious health risk to students. The LMSD Athletic and Health Services Departments have practices and procedures to promote the health and safety of our student athletes. Students participating in Interscholastic Athletics may be at increased risk for head injuries including concussion. LMSD has procedures to evaluate and manage head injuries for our student athletes. Our procedures are in compliance with Pennsylvania Senate Bill 200 (Pennsylvania Youth Sports concussion Law 2012). Please read the information below for important information about concussions.</string>
+                                <mutableString key="text">Background Information: Head injuries pose a serious health risk to students. The LMSD Athletic and Health Services Departments have practices and procedures to promote the health and safety of our student athletes. Students participating in Interscholastic Athletics may be at increased risk for head injuries including concussion. LMSD has procedures to evaluate and manage head injuries for our student athletes. Our procedures are in compliance with Pennsylvania Senate Bill 200 (Pennsylvania Youth Sports concussion Law 2012). Please read the information below for important information about concussions.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Concussion Information" id="w3o-cG-3Al">
                         <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="6Xw-Bt-Eke">
@@ -5337,7 +5313,7 @@ Mike Fanning	1952-1955</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GHT-NU-5nd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="26712.799999999999" y="2971.6641679160421"/>
+            <point key="canvasLocation" x="26713" y="1558"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="co9-Hn-oi9">
@@ -5353,7 +5329,7 @@ Mike Fanning	1952-1955</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XsG-RO-JsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32018" y="1979"/>
+            <point key="canvasLocation" x="32017" y="3435"/>
         </scene>
         <!--HSA-->
         <scene sceneID="CcH-7e-20j">
@@ -5367,20 +5343,11 @@ Mike Fanning	1952-1955</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lub-qZ-lAd">
-                                <rect key="frame" x="127" y="72" width="121" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                    <segment title=""/>
-                                </segments>
-                            </segmentedControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oNg-jh-ADS">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Each of the Lower Merion School District's ten schools maintains an active Home &amp; School Association (HSA) that meets regularly to inform parents of upcoming school and district-wide initiatives, plan activities, provide a forum for ideas and concerns, and act as a liaison between parents and school staff.
+                                <mutableString key="text">Each of the Lower Merion School District's ten schools maintains an active Home &amp; School Association (HSA) that meets regularly to inform parents of upcoming school and district-wide initiatives, plan activities, provide a forum for ideas and concerns, and act as a liaison between parents and school staff.
 
 The HSA is a volunteer organization that relies upon the help of parents/guardians. It is an active group that meets regularly to discuss items of concern to the greater school community. The HSA also works collaboratively with the school staff to provide enriching experiences for all.
 
@@ -5388,15 +5355,19 @@ All Harriton High School parents/guardians are invited to actively participate i
 
 Contact the Harriton Home and School Association with questions, comments, or concerns at HarritonHSA@gmail.com.
 
-Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and notices relevant to the Harriton community at harritonnewsletter@gmail.com.</string>
+Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and notices relevant to the Harriton community at harritonnewsletter@gmail.com.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="HSA" id="016-lQ-jIz">
-                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="DBN-V6-k2n"/>
+                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="DBN-V6-k2n">
+                            <connections>
+                                <segue destination="WY1-Kc-sC4" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="0Ea-Dl-rEE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="backButton" destination="DBN-V6-k2n" id="Kas-aT-aaA"/>
@@ -5404,7 +5375,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2LT-SN-cyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32874" y="1979"/>
+            <point key="canvasLocation" x="32873" y="3435"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="akI-fd-Svy">
@@ -5458,29 +5429,8 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                             <segue destination="KEC-Xg-usc" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Hqu-LX-FLE"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="W6r-Vp-fTi" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W6r-Vp-fTi" id="0Ui-SJ-j0b" userLabel="cell">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HSA Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zu-Vx-4ey">
-                                                    <rect key="frame" x="30" y="11" width="80" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <segue destination="VHP-0o-9VM" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="BfE-iF-a2L"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ybn-OQ-Hnj" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ybn-OQ-Hnj" id="wac-KP-Z6A" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5501,7 +5451,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="05Y-cz-t6D" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="05Y-cz-t6D" id="RXa-NA-SKn" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5522,7 +5472,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gKM-W5-maN" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gKM-W5-maN" id="Uut-QL-Jcr" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5543,7 +5493,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="33e-cT-52x" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="33e-cT-52x" id="R90-H3-qj1" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5564,7 +5514,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lgy-cP-zDq" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lgy-cP-zDq" id="TOP-dx-KBG" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5585,7 +5535,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="YoB-oy-V1M" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YoB-oy-V1M" id="2D5-md-eZh" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5606,7 +5556,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hRD-rf-Lfc" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hRD-rf-Lfc" id="WEk-mz-jyS" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5627,7 +5577,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9Vx-zF-X5X" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Vx-zF-X5X" id="Vtj-df-eSG" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5648,7 +5598,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0F1-JM-mBk" userLabel="cell">
-                                        <rect key="frame" x="0.0" y="484" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0F1-JM-mBk" id="UPZ-a8-WfC" userLabel="cell">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
@@ -5671,59 +5621,6 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
             <point key="canvasLocation" x="28586" y="4110"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="nr6-xF-0E5">
-            <objects>
-                <navigationController id="VHP-0o-9VM" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="soe-lm-6dG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="ljZ-W2-fu4" kind="relationship" relationship="rootViewController" id="nHu-85-ibq"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GBG-Bg-VK7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="32018" y="2678"/>
-        </scene>
-        <!--HSA Store-->
-        <scene sceneID="kUG-em-jRk">
-            <objects>
-                <viewController id="ljZ-W2-fu4" customClass="HSAStoreViewController" customModule="HarritonMobileApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Xga-sq-5wM"/>
-                        <viewControllerLayoutGuide type="bottom" id="6Mg-Y1-YXx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="XVP-Oj-DTO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="THIS THREAD MUST BE DELEATED" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fcG-bX-dUc">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="HSA Store" id="lq0-ec-M96">
-                        <barButtonItem key="leftBarButtonItem" image="Back-25 (1)" id="7Py-Jh-Jcz">
-                            <connections>
-                                <segue destination="WY1-Kc-sC4" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="gmP-kO-e53"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="backButton" destination="7Py-Jh-Jcz" id="34M-qT-m23"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mi3-s3-W0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="32874" y="2678"/>
-        </scene>
-        <!--Navigation Controller-->
         <scene sceneID="5ro-qU-eTz">
             <objects>
                 <navigationController id="yW1-fs-V7K" sceneMemberID="viewController">
@@ -5737,7 +5634,7 @@ Sign up for the HSA's weekly e-newsletter, "Ramblings", with the latest news and
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a2b-0F-shU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32018" y="3382"/>
+            <point key="canvasLocation" x="32017" y="4101"/>
         </scene>
         <!--Absentee Information-->
         <scene sceneID="CCB-Ah-VVf">
@@ -5776,7 +5673,7 @@ Harriton Absentee, Lateness &amp; Safe Arrival Line - 610-658-3960</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Og-mf-Eoz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32872.800000000003" y="3381.8590704647677"/>
+            <point key="canvasLocation" x="32873" y="4101"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6JO-Sa-h65">
@@ -5792,7 +5689,7 @@ Harriton Absentee, Lateness &amp; Safe Arrival Line - 610-658-3960</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZlU-Ur-Qkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31982" y="4110"/>
+            <point key="canvasLocation" x="31982" y="4828"/>
         </scene>
         <!--Registration Information-->
         <scene sceneID="Pe9-Av-Pia">
@@ -5843,7 +5740,7 @@ Fax: 610-645-6512</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvH-ZI-ZQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32837.599999999999" y="4109.5952023988011"/>
+            <point key="canvasLocation" x="32838" y="4828"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TBZ-Sj-CbM">
@@ -5859,7 +5756,7 @@ Fax: 610-645-6512</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsw-S4-uhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="31982" y="4864"/>
+            <point key="canvasLocation" x="31982" y="5582"/>
         </scene>
         <!--Emergency Pick-up Info-->
         <scene sceneID="7A9-F0-Amg">
@@ -5929,7 +5826,7 @@ Superintendent of Schools</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJU-8w-KBN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32837.599999999999" y="4862.5187406296855"/>
+            <point key="canvasLocation" x="32838" y="5581"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="1Xu-vh-oqf">
@@ -7068,16 +6965,20 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
         <image name="Adays" width="198" height="576"/>
         <image name="Back-25 (1)" width="25" height="25"/>
         <image name="Bday" width="198" height="576"/>
+        <image name="Bell Schedule" width="809" height="413"/>
         <image name="Cday" width="197" height="576"/>
         <image name="Dday" width="198" height="576"/>
         <image name="Eboard" width="500" height="500"/>
+        <image name="Fall Sports" width="809" height="506"/>
         <image name="HHS Logo" width="200" height="200"/>
         <image name="Info_25" width="25" height="25"/>
         <image name="LunchandLearn_schedule" width="500" height="500"/>
         <image name="LunchandLearn_staff" width="500" height="500"/>
         <image name="SpecialSchedules" width="500" height="500"/>
+        <image name="Spring Sports" width="810" height="413"/>
         <image name="Unchecked Circle Filled-25" width="25" height="25"/>
         <image name="Untitled-3" width="2000" height="2000"/>
+        <image name="Winter Sports" width="809" height="551"/>
         <image name="blackboard_learn" width="500" height="500"/>
         <image name="earlydiss" width="697" height="263"/>
         <image name="harritonheader2" width="500" height="500"/>
@@ -7089,13 +6990,13 @@ There are signs along Ithan Avenue to direct you to the correct entrance for dro
         <image name="zenithharriton" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ma2-TG-LSr"/>
-        <segue reference="myn-Mq-kdB"/>
-        <segue reference="w2H-t0-8M5"/>
-        <segue reference="HQ6-Jc-yzN"/>
-        <segue reference="1hc-kN-Ps6"/>
-        <segue reference="3S6-Re-eDI"/>
-        <segue reference="2zr-ee-ysT"/>
+        <segue reference="SfF-sR-6hk"/>
+        <segue reference="nPW-aU-DjK"/>
+        <segue reference="FYd-iV-Uil"/>
+        <segue reference="AH5-VG-Jsw"/>
         <segue reference="E3z-sn-f1e"/>
+        <segue reference="gEm-pp-u5y"/>
+        <segue reference="3S6-Re-eDI"/>
+        <segue reference="HQ6-Jc-yzN"/>
     </inferredMetricsTieBreakers>
 </document>

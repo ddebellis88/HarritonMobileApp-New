@@ -17,8 +17,6 @@
 		12305D9E1ED6778B00CE0102 /* NavianceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */; };
 		126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126710661EC4EA1B00CCC28E /* LLAViewController.swift */; };
 		1267106B1EC5378F00CCC28E /* ZenithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267106A1EC5378F00CCC28E /* ZenithViewController.swift */; };
-		126E71D01EDCF47100463F92 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 126E71CF1EDCF47100463F92 /* 1.png */; };
-		126E71D21EDCF58B00463F92 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 126E71D11EDCF58B00463F92 /* 2.png */; };
 		12EA84451ED7B9190063F8C4 /* ABSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA84441ED7B9190063F8C4 /* ABSViewController.swift */; };
 		CF290ED51ED337CC00439D0B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290ED41ED337CC00439D0B /* InfoViewController.swift */; };
 		CF290EDE1ED4B74700439D0B /* PWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290EDD1ED4B74700439D0B /* PWViewController.swift */; };
@@ -44,7 +42,6 @@
 		CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F091ED4B99F00439D0B /* WSViewController.swift */; };
 		CF290F0C1ED4B9A500439D0B /* SSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0B1ED4B9A500439D0B /* SSViewController.swift */; };
 		CF290F0E1ED4B9B300439D0B /* TitleIXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */; };
-		CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */; };
 		CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F111ED4B9C300439D0B /* CLSViewController.swift */; };
 		CF290F141ED4B9CE00439D0B /* WoFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F131ED4B9CE00439D0B /* WoFViewController.swift */; };
 		CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F171ED4B9E000439D0B /* CIViewController.swift */; };
@@ -57,7 +54,6 @@
 		CF290F281ED4BAE500439D0B /* CCRFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F271ED4BAE500439D0B /* CCRFViewController.swift */; };
 		CF290F2A1ED4BAED00439D0B /* 9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F291ED4BAED00439D0B /* 9ViewController.swift */; };
 		CF290F2D1ED4BB2900439D0B /* HSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */; };
-		CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */; };
 		CF290F311ED4BB3900439D0B /* AIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F301ED4BB3900439D0B /* AIViewController.swift */; };
 		CF290F331ED4BB4000439D0B /* RIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F321ED4BB4000439D0B /* RIViewController.swift */; };
 		CF290F351ED4BB4A00439D0B /* EP-uIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */; };
@@ -71,6 +67,8 @@
 		CF4261C71ED8D4AD00749B68 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4261C51ED8D4AD00749B68 /* Item.swift */; };
 		CF4261DB1EDC7C0000749B68 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DA1EDC7C0000749B68 /* 3.png */; };
 		CF4261DD1EDC7C1500749B68 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DC1EDC7C1500749B68 /* 4.png */; };
+		CF4261DF1EDDBE8D00749B68 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261DE1EDDBE8D00749B68 /* 1.png */; };
+		CF4261E11EDDBE9700749B68 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF4261E01EDDBE9700749B68 /* 2.png */; };
 		CFA1612B1EC220BD000D8395 /* PowerSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */; };
 		CFA1612D1EC2413C000D8395 /* TheHarritonBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */; };
 		CFB14D6B1EC4B49D007214FA /* BlackBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */; };
@@ -120,8 +118,6 @@
 		12305D9D1ED6778B00CE0102 /* NavianceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavianceViewController.swift; sourceTree = "<group>"; };
 		126710661EC4EA1B00CCC28E /* LLAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAViewController.swift; sourceTree = "<group>"; };
 		1267106A1EC5378F00CCC28E /* ZenithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenithViewController.swift; sourceTree = "<group>"; };
-		126E71CF1EDCF47100463F92 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../1.png; sourceTree = "<group>"; };
-		126E71D11EDCF58B00463F92 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../2.png; sourceTree = "<group>"; };
 		12EA84441ED7B9190063F8C4 /* ABSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABSViewController.swift; sourceTree = "<group>"; };
 		CF290ED41ED337CC00439D0B /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		CF290EDD1ED4B74700439D0B /* PWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +143,6 @@
 		CF290F091ED4B99F00439D0B /* WSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSViewController.swift; sourceTree = "<group>"; };
 		CF290F0B1ED4B9A500439D0B /* SSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSViewController.swift; sourceTree = "<group>"; };
 		CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleIXViewController.swift; sourceTree = "<group>"; };
-		CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P&CPViewController.swift"; sourceTree = "<group>"; };
 		CF290F111ED4B9C300439D0B /* CLSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLSViewController.swift; sourceTree = "<group>"; };
 		CF290F131ED4B9CE00439D0B /* WoFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoFViewController.swift; sourceTree = "<group>"; };
 		CF290F171ED4B9E000439D0B /* CIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIViewController.swift; sourceTree = "<group>"; };
@@ -160,7 +155,6 @@
 		CF290F271ED4BAE500439D0B /* CCRFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCRFViewController.swift; sourceTree = "<group>"; };
 		CF290F291ED4BAED00439D0B /* 9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 9ViewController.swift; sourceTree = "<group>"; };
 		CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAViewController.swift; sourceTree = "<group>"; };
-		CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAStoreViewController.swift; sourceTree = "<group>"; };
 		CF290F301ED4BB3900439D0B /* AIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIViewController.swift; sourceTree = "<group>"; };
 		CF290F321ED4BB4000439D0B /* RIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RIViewController.swift; sourceTree = "<group>"; };
 		CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EP-uIViewController.swift"; sourceTree = "<group>"; };
@@ -174,6 +168,8 @@
 		CF4261C51ED8D4AD00749B68 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CF4261DA1EDC7C0000749B68 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		CF4261DC1EDC7C1500749B68 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CF4261DE1EDDBE8D00749B68 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CF4261E01EDDBE9700749B68 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		CFA1612A1EC220BD000D8395 /* PowerSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerSchoolViewController.swift; path = StudentPortalFiles/PowerSchoolViewController.swift; sourceTree = "<group>"; };
 		CFA1612C1EC2413C000D8395 /* TheHarritonBannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheHarritonBannerViewController.swift; path = StudentPortalFiles/TheHarritonBannerViewController.swift; sourceTree = "<group>"; };
 		CFB14D6A1EC4B49D007214FA /* BlackBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackBoardViewController.swift; sourceTree = "<group>"; };
@@ -274,8 +270,8 @@
 				CF290F441ED4BC8500439D0B /* Parent Info */,
 				CF290F2B1ED4BAF400439D0B /* School Counseling */,
 				CF290F241ED4BA8100439D0B /* Campus Life */,
-				CF290F021ED4B94100439D0B /* Academics */,
 				CF290F191ED4B9EA00439D0B /* Athletics */,
+				CF290F021ED4B94100439D0B /* Academics */,
 				CF290EED1ED4B89300439D0B /* About Harriton */,
 			);
 			name = SubMenu;
@@ -321,7 +317,6 @@
 				CF290F091ED4B99F00439D0B /* WSViewController.swift */,
 				CF290F0B1ED4B9A500439D0B /* SSViewController.swift */,
 				CF290F0D1ED4B9B300439D0B /* TitleIXViewController.swift */,
-				CF290F0F1ED4B9BC00439D0B /* P&CPViewController.swift */,
 				CF290F111ED4B9C300439D0B /* CLSViewController.swift */,
 				CF290F131ED4B9CE00439D0B /* WoFViewController.swift */,
 				CF290F171ED4B9E000439D0B /* CIViewController.swift */,
@@ -355,7 +350,6 @@
 			isa = PBXGroup;
 			children = (
 				CF290F2C1ED4BB2900439D0B /* HSAViewController.swift */,
-				CF290F2E1ED4BB3100439D0B /* HSAStoreViewController.swift */,
 				CF290F301ED4BB3900439D0B /* AIViewController.swift */,
 				CF290F321ED4BB4000439D0B /* RIViewController.swift */,
 				CF290F341ED4BB4A00439D0B /* EP-uIViewController.swift */,
@@ -380,8 +374,8 @@
 		CF4261D11EDC761500749B68 /* FrontPagePics */ = {
 			isa = PBXGroup;
 			children = (
-				126E71CF1EDCF47100463F92 /* 1.png */,
-				126E71D11EDCF58B00463F92 /* 2.png */,
+				CF4261DE1EDDBE8D00749B68 /* 1.png */,
+				CF4261E01EDDBE9700749B68 /* 2.png */,
 				CF4261DA1EDC7C0000749B68 /* 3.png */,
 				CF4261DC1EDC7C1500749B68 /* 4.png */,
 			);
@@ -554,10 +548,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F8911EAD92C20026061C /* LaunchScreen.storyboard in Resources */,
-				126E71D01EDCF47100463F92 /* 1.png in Resources */,
-				126E71D21EDCF58B00463F92 /* 2.png in Resources */,
 				CF4261DD1EDC7C1500749B68 /* 4.png in Resources */,
+				CF4261E11EDDBE9700749B68 /* 2.png in Resources */,
 				CF4261DB1EDC7C0000749B68 /* 3.png in Resources */,
+				CF4261DF1EDDBE8D00749B68 /* 1.png in Resources */,
 				CFE1F88E1EAD92C20026061C /* Assets.xcassets in Resources */,
 				CFE1F88C1EAD92C20026061C /* Main.storyboard in Resources */,
 			);
@@ -611,7 +605,6 @@
 				CFE1F8CD1EB021850026061C /* CampusLifeViewController.swift in Sources */,
 				CF290F121ED4B9C300439D0B /* CLSViewController.swift in Sources */,
 				126710671EC4EA1B00CCC28E /* LLAViewController.swift in Sources */,
-				CF290F101ED4B9BC00439D0B /* P&CPViewController.swift in Sources */,
 				CF290F3D1ED4BB8400439D0B /* WDIAViewController.swift in Sources */,
 				CF290EE21ED4B7D200439D0B /* H&AViewController.swift in Sources */,
 				CF290F181ED4B9E000439D0B /* CIViewController.swift in Sources */,
@@ -622,7 +615,6 @@
 				CF290EF11ED4B8DF00439D0B /* PGViewController.swift in Sources */,
 				CFE1F8C31EADBD280026061C /* AboutHarritonViewController.swift in Sources */,
 				CF290F061ED4B99200439D0B /* DigitalSportsViewController.swift in Sources */,
-				CF290F2F1ED4BB3100439D0B /* HSAStoreViewController.swift in Sources */,
 				CF290EEF1ED4B8BC00439D0B /* IBViewController.swift in Sources */,
 				CF290F0A1ED4B99F00439D0B /* WSViewController.swift in Sources */,
 				CF290F311ED4BB3900439D0B /* AIViewController.swift in Sources */,
