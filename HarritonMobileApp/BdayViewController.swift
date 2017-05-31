@@ -55,41 +55,41 @@ class BdayViewController: UIViewController {
         UserDefaults.standard.set(input6.text, forKey: "name6_bday")
         input6.text=""
     }
-    override func viewDidAppear(_ animated: Bool)
+    override func viewDidAppear(_ animated: Bool)//make sure elements loaded. Makes sure user input somthing
     {
         if let x_bday = UserDefaults.standard.object(forKey: "name1_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output.text = x_bday
         }
         
         if let x2_bday = UserDefaults.standard.object(forKey: "name2_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output2.text = x2_bday
         }
         
         if let x3_bday = UserDefaults.standard.object(forKey: "name3_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output3.text = x3_bday
         }
         
         if let x4_bday = UserDefaults.standard.object(forKey: "name4_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output4.text = x4_bday
         }
         
         
         if let x5_bday = UserDefaults.standard.object(forKey: "name5_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output5.text = x5_bday
         }
         
         if let x6_bday = UserDefaults.standard.object(forKey: "name6_bday")
-            as? String //make sure elements loaded. Makes sure user input somthing
+            as? String 
         {
             output6.text = x6_bday
         }
