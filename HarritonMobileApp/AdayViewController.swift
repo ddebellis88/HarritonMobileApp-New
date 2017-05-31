@@ -31,7 +31,7 @@ class AdayViewController: UIViewController {
     
     @IBAction func action(_ sender: AnyObject)
     {
-        output.text = input.text
+        input.text = input.text
         UserDefaults.standard.set(input.text, forKey: "name1_aday")
         input.text=""
         

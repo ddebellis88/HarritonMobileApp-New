@@ -42,8 +42,8 @@ class LALSCViewController: UIViewController {
                 
                 self.containerA.alpha = 0
                 self.containerB.alpha = 1
-                self.containerC.alpha = 0
                 self.containerD.alpha = 0
+                self.containerC.alpha = 0
 
             }
             )
